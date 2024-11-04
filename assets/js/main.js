@@ -196,3 +196,22 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+/**
+   * Intensive Care View Function
+   */
+
+// JavaScript function to open the modal with the selected image
+function openModal(src) {
+  document.getElementById('modalImage').src = src;
+  var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+  myModal.show();
+}
+
+// Close button functionality
+document.getElementById('closeModalButton').addEventListener('click', function() {
+  var myModalEl = document.getElementById('imageModal');
+  var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+  modal.hide(); // Close the modal
+});
