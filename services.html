@@ -40,311 +40,44 @@
 <body class="service-details-page">
 
   <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
-
-    <div class="topbar d-flex align-items-center" style="background-color: #007bff;">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="d-none d-md-flex align-items-center">
-          <i class="bi bi-clock me-1"></i> Open 24 Hours
-        </div>
-        <div class="d-flex align-items-center">
-          <i class="bi bi-phone me-1"></i> 033 327-1527 | 033 327-2030
-        </div>
-      </div>
-    </div><!-- End Top Bar -->
-
     <div class="branding d-flex align-items-center">
-
       <div class="container position-relative d-flex align-items-center justify-content-end">
         <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="Icons/metroboom.png" alt="logo" class="img-fluid" style="max-height: 100px; height: auto;">
-
-          <!-- Uncomment the line below if you also wish to use a text logo -->
-          <!-- <h1 class="sitename">Medicio</h1>  -->
+          <img src="Icons/metroboom.png" alt="logo" class="img-fluid" style="max-height: 100px; height: auto;">
         </a>
-
+  
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#hero" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <!-- <li><a href="#departments">Departments</a></li> -->
+            <li><a href="#department">Departments</a></li>
             <li><a href="#doctors">Doctors</a></li>
             <li class="dropdown"><a href="#"><span>Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#">Rates</a></li>
-                <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li> -->
-                <li><a href="#">Packages</a></li>
-           
+                <li><a href="rates.html">Rates</a></li>
+                <li><a href="packages.html">Packages</a></li>
               </ul>
             </li>
+            <li><a href="#gallery">FAQ'S</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <a class="cta-btn" href="index.html#appointment">Make an Appointment</a>
-        
-
+  
+        <!-- Search Form -->
+        <form class="d-flex ms-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+  
       </div>
-
     </div>
-
   </header>
 
   <main class="main">
 
      <!-- Services Section -->
-<section id="services" class="services section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Services</h2>
-    </div><!-- End Section Title -->
-    
-    <div class="container">
-    
-      <div class="row gy-4">
-    
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fas fa-pills"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>24H Pharmacy</h3>
-              </a>
-              <p>Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-syringe"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Laparoscopic Surgery</h3>
-              </a>
-              <p>Performed by the best laparascopic surgeon, Dr. Segundo Anayan, Jr.</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-hospital-user"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>One Endoscopy Unit</h3>
-              </a>
-              <p>• Esophagogastroduodenoscopy</p>
-              <p>• ERP | Colonoscopy | Bronchoscopy</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-stethoscope"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Out-patient Care Complex (OPCC)</h3>
-              </a>
-              <p>The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such... The OPCC aims to deliver the utmost compassionate healthcare services. 
-                To provide convenience to patients, it has a scenic elevator in front of the hospital that provides direct access to the OPCC...</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-notes-medical"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Diagnostic & Ancillary Services</h3>
-              </a>
-              <h6 class="text-start"><strong>Radiology</strong></h6>
-              <p class="text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography</p>
-              <p class="text-start">• High Resolution CT Scan</p>
-              <p class="text-start">• General/OB Ultrasound with 4D</p>
-              <p class="text-start">• Liver Elastography</p><br>
-    
-              <h6 class="text-start"><strong>Cardiology/Pulmonary</strong></h6>
-              <p class="text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography</p>
-              <p class="text-start">• High Resolution CT Scan</p>
-              <p class="text-start">• General/OB Ultrasound with 4D</p>
-              <p class="text-start">• Liver Elastography</p>
-              
-              
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-microscope"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Laboratory</h3>
-              </a>
-              <h6><strong>Fully Automated 24-Hour Laboratory Services:</strong></h6><br>
-              <h6 class="text-start"><strong>Bacteriology</strong></h6>
-              <p class="text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography</p>
-              <p class="text-start">• High Resolution CT Scan</p>
-              <p class="text-start">• General/OB Ultrasound with 4D</p>
-              <p class="text-start">• Liver Elastography</p>
-    
-              <h6 class="text-start"><strong>Blood Bank</strong></h6>
-              <p class="text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography</p>
-              <p class="text-start">• High Resolution CT Scan</p>
-              <p class="text-start">• General/OB Ultrasound with 4D</p>
-              <p class="text-start">• Liver Elastography</p>
-    
-    
-    
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-    
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fas fa-heartbeat"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Operating Room Complex</h3>
-              </a>
-            <p class="text-center">• Operating Room</p>
-            <p class="text-center">• Delivery Room</p>
-            <p class="text-center">• Labor Room</p>
-            <p class="text-center">• Recovery Room</p>
-            <p class="text-center">• Birthing Suite</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-procedures"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Intensive Care Unit</h3>
-              </a>
-              <p class="text-center">• Medical - ICU</p>
-              <p class="text-center">• Neonatal - ICU</p>
-              <p class="text-center">• Pediatric - ICU</p>
-              <p class="text-center">• Surgical - ICU</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-ambulance"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Emergency Room Services</h3>
-              </a>
-              <p class="text-center">• Operating Room</p>
-              <p class="text-center">• Delivery Room</p>
-              <p class="text-center">• Labor Room</p>
-              <p class="text-center">• Recovery Room</p>
-              <p class="text-center">• Birthing Suite</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fas fa-user-md"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Hemodialysis Unit</h3>
-              </a>
-              <p>Equiped with high-end machines to cater patients</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-file-medical-alt"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Rehabilitation Center</h3>
-              </a>
-              <p class="text-center">• Electrotherapy</p>
-              <p class="text-center">• Manual Therapy</p>
-              <p class="text-center">• Gait Re-training</p>
-              <p class="text-center">• Pain Management</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-bone"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Arthroscopy</h3>
-              </a>
-              <p>A minimally invasive surgical procedure on a joint in which an examination and sometimes treatment of damage is performed using an arthroscope.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fas fa-hospital"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Ambulance Service</h3>
-              </a>
-              <p>24H Availability of Ambulance.</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-tooth"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Dental Service</h3>
-              </a>
-              <p>Located at 3rd Floor Out-patient Care Complex.</p>
-            </div>
-          </div><!-- End Service Item -->
-      
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-utensils"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Dietary</h3>
-              </a>
-              <p>Nutrition & Diabetic Services</p>
-            </div>
-          </div><!-- End Service Item -->
-        
-      </div>
-    
-    </div>
-
-    
-    </section><!-- /Services Section -->
 
   </main>
 
