@@ -28,14 +28,20 @@
   <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Medicio
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
+
+<style>
+  .gallery img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+</style>
 
 <body class="service-details-page">
 
@@ -44,12 +50,12 @@
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
         <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
+          <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="index.html" class="active" style="font-size: 15px;">Home</a></li>
+            <li><a href="#hero" class="active" style="font-size: 15px;">Home</a></li>
             <li><a href="#about" style="font-size: 15px;">About</a></li>
             <li><a href="#services" style="font-size: 15px;">Services</a></li>
             <li><a href="#department" style="font-size: 15px;">Departments</a></li>
@@ -75,25 +81,18 @@
       </div>
     </div>
   </header>
+  
 
   <main class="main">
 
 
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2 class="text-center mt-5">Cardiology / Pulmonology</h2>
+  <p class="title-paragraph text-center mt-4" style="font-size: 25px;">Open 24/7 | Ground Floor | 327-1527 loc. 8114</p>
+</div><!-- End Section Title -->
 
 
-    <!-- Page Title -->
-  <div class="page-title" style="background-color: rgb(27, 64, 128)">
-    <div class="heading">
-      <div class="container">
-        <div class="row d-flex justify-content-center text-center">
-          <div class="col-lg-8">
-            <h1 class="heading-title text-light"style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Cardiology / Pulmonology</h1>
-            <h3 class="heading-title text-light"style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Open 24/7 | Ground Floor | 327-1527 loc. 8114</h3>
-              </div>
-        </div>
-      </div>
-    </div>
-  </div><!-- End Page Title -->
 
   <!--Title With Description-->
   <div class="container mt-5">
@@ -122,72 +121,80 @@
   </div>
 
 
+ <!--Pictures-->
+ <div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-3">
+      <img src="../Images/cardio-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-3">
+      <img src="../Images/cardio-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-3">
+      <img src="../Images/cardio-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 4 -->
+    <div class="col-md-3">
+      <img src="../Images/cardio-4.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/cardio-7.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/cardio-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/cardio-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 4 -->
+  </div>
+</div>
 
 
-
-    <!--Gallery Section-->
-    <section id="gallery" class="gallery section">
-
-
-      <!-- Section Title -->
-     
-      
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-      
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 0
-                },
-                "768": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                },
-                "1200": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-1.jpg"><img src="../Images/cardio-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-2.jpg"><img src="../Images/cardio-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-3.jpg"><img src="../Images/cardio-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-4.jpg"><img src="../Images/cardio-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-5.jpg"><img src="../Images/cardio-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-6.jpg"><img src="../Images/cardio-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../Images/cardio-7.jpg"><img src="../Images/cardio-7.jpg" class="img-fluid" alt=""></a></div>
-            
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img id="modalImage" src="" alt="Large view" class="img-fluid">
       </div>
-      
-          <!-- Starter Section Section --8
-          <section id="starter-section" class="starter-section section">
-      
-            <div class="container" data-aos="fade-up">
-              <p>Use this page as a starter for your own custom pages.</p>
-            </div6
-      
-          </section><!-- /Starter Section Section -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  // JavaScript function to open the modal with the selected image
+  function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+    myModal.show();
+  }
+
+  // Close button functionality
+  document.getElementById('closeModalButton').addEventListener('click', function() {
+    var myModalEl = document.getElementById('imageModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+    modal.hide(); // Close the modal
+  });
+</script>
+
+
+   
 
   </main>
 
