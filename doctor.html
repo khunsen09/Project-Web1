@@ -31,6 +31,47 @@
 
 </head>
 
+<style>
+  .team-member {
+    background: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+
+  .member-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .member-info {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .member-info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+
+  .member-info span {
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  .no-results {
+    text-align: center;
+    font-size: 18px;
+    color: #6c757d;
+  }
+
+  .search-bar {
+    margin-bottom: 20px;
+  }
+</style>
+
 <body class="service-details-page">
 
   <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
@@ -43,11 +84,11 @@
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="index.html" class="active" style="font-size: 15px;">Home</a></li>
+            <li><a href="index.html"  style="font-size: 15px;">Home</a></li>
             <li><a href="about.html" style="font-size: 15px;">About</a></li>
             <li><a href="services.html" style="font-size: 15px;">Services</a></li>
             <li><a href="departments.html" style="font-size: 15px;">Departments</a></li>
-            <li><a href="doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="doctor.html" class="active" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
@@ -72,125 +113,233 @@
 
   <main class="main">
 
-<!-- Doctors Section -->
-<section id="doctors" class="doctors section">
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2 class="text-center mb-5">SEARCH DOCTORS FOR SCHEDULES & AVAILABILITY</h2>
-      <div class="input-group">
-        <input type="search" id="doctorSearch" class="form-control rounded" placeholder="Search by Doctor's Name or Specialty" aria-label="Search" aria-describedby="search-addon" oninput="searchDoctors()" />
-        <button type="button" class="btn btn-outline-primary" onclick="searchDoctors()">Search</button>
-      </div>
-    </div>
-    <!-- End Section Title -->
+    <style>
+      .team-member {
+        background: #f8f9fa;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+      }
   
+      .member-img img {
+        width: 100%;
+        height: auto;
+      }
+  
+      .member-info {
+        padding: 15px;
+        text-align: center;
+      }
+  
+      .member-info h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0 5px;
+      }
+  
+      .member-info span {
+        font-size: 14px;
+        color: #6c757d;
+      }
+  
+      .no-results {
+        text-align: center;
+        font-size: 18px;
+        color: #6c757d;
+      }
+  
+      .search-bar {
+        margin-bottom: 20px;
+      }
+  
+      .loading {
+        text-align: center;
+        font-size: 18px;
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container mt-5">
-      <div class="row" id="doctorsList">
-        <!-- Team Member 1 -->
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch doctor-item" data-aos="fade-up" data-aos-delay="100">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" class="img-fluid" alt="">
-            </div>
-            <div class="member-info">
-              <h4>Walter White</h4>
-              <span>Chief Medical Officer</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member 1 -->
-  
-        <!-- Team Member 2 -->
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch doctor-item" data-aos="fade-up" data-aos-delay="200">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" class="img-fluid" alt="">
-            </div>
-            <div class="member-info">
-              <h4>Sarah Johnson</h4>
-              <span>Anesthesiologist</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member 2 -->
-  
-        <!-- Team Member 3 -->
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch doctor-item" data-aos="fade-up" data-aos-delay="300">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" class="img-fluid" alt="">
-            </div>
-            <div class="member-info">
-              <h4>William Anderson</h4>
-              <span>Cardiologist</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member 3 -->
-  
-        <!-- Team Member 4 -->
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch doctor-item" data-aos="fade-up" data-aos-delay="400">
-          <div class="team-member">
-            <div class="member-img">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" class="img-fluid" alt="">
-            </div>
-            <div class="member-info">
-              <h4>Amanda Jepson</h4>
-              <span>Neurosurgeon</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member 4 -->
+      <div class="container section-title">
+      <h2 class="text-center mb-5">SEARCH DOCTORS RESULTS</h2>
+  </div>
+      <!-- Search Bar Filter -->
+      <div class="search-bar d-flex">
+        <input 
+          type="search" 
+          id="filterInput" 
+          class="form-control me-2" 
+          placeholder="Filter doctors by name or specialty"
+          aria-label="Search filter"
+        />
+        <button id="searchButton" class="btn btn-outline-primary" type="button">
+          Search
+        </button>
       </div>
+  
+      <!-- Doctors List -->
+      <div class="loading" id="loadingMessage">Loading doctors...</div>
+      <div class="row" id="doctorList">
+        <!-- Filtered results will be inserted here -->
+      </div>
+      <p class="no-results" id="noResultsMessage" style="display: none;">No doctors found. Please try another search term.</p>
     </div>
-  </section>
-  <!-- /Doctors Section -->
   
-  <script>
-    function searchDoctors() {
-      const searchInput = document.getElementById('doctorSearch').value.toLowerCase();
-      const doctors = document.querySelectorAll('.doctor-item'); // Select all doctor items
+    <script>
+      // Sample doctor data
+      const doctors = [
+      { name: "Walter White", specialty: "Chief Medical Officer", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Sarah Connor", specialty: "Cardiology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "John Doe", specialty: "Neurology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Jane Smith", specialty: "Pediatrics", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "James Miller", specialty: "Dermatology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Alice Brown", specialty: "Orthopedics", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Michael Johnson", specialty: "Oncology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Emily Davis", specialty: "General Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "David Wilson", specialty: "Ophthalmology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Lisa Moore", specialty: "ENT", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Robert Taylor", specialty: "Cardiothoracic Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Linda Anderson", specialty: "Psychiatry", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Thomas Martinez", specialty: "Gastroenterology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Nancy Thomas", specialty: "Rheumatology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Steven Jackson", specialty: "Palliative Care", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Dorothy White", specialty: "Nephrology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Brian Lee", specialty: "Infectious Diseases", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Monica Harris", specialty: "Pulmonology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Patrick Clark", specialty: "Endocrinology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Cynthia Walker", specialty: "Hematology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Charles Hall", specialty: "Urology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Katherine Allen", specialty: "Neurosurgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Henry Young", specialty: "Plastic Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Angela King", specialty: "Vascular Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "George Scott", specialty: "Trauma Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Olivia Wright", specialty: "Obstetrics & Gynecology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Frank Hill", specialty: "Pediatric Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Deborah Adams", specialty: "Hepatology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Samuel Nelson", specialty: "Sports Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Rebecca Carter", specialty: "Family Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Peter Mitchell", specialty: "Emergency Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Nancy Perez", specialty: "Internal Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Christopher Roberts", specialty: "Geriatrics", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Elizabeth Gonzalez", specialty: "Radiology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Andrew Lee", specialty: "General Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Megan Harris", specialty: "Anesthesiology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Mark Perez", specialty: "Pain Management", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Samantha Foster", specialty: "Addiction Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Steven Martinez", specialty: "Plastic Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Pamela Thompson", specialty: "Nephrology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Nancy Wilson", specialty: "Orthopedic Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Joseph Taylor", specialty: "Cardiothoracic Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "William Lewis", specialty: "Pediatric Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Ashley Harris", specialty: "Rheumatology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Paul Walker", specialty: "Infectious Diseases", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Victoria Adams", specialty: "Psychiatry", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Daniel Johnson", specialty: "Emergency Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Grace Nelson", specialty: "Pediatric Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Thomas Brown", specialty: "Surgical Oncology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Clara Johnson", specialty: "Palliative Care", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "David Allen", specialty: "Gastroenterology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Eva Martinez", specialty: "Rheumatology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Cynthia Clark", specialty: "Surgical Oncology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Steve King", specialty: "Sports Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Laura Scott", specialty: "Obstetrics & Gynecology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Fred Young", specialty: "Vascular Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Alice Harris", specialty: "Urology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Jack Robinson", specialty: "Plastic Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Sophia Green", specialty: "Anesthesiology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Benjamin Lee", specialty: "Surgical Oncology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Daniel Robinson", specialty: "Radiology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Grace Martinez", specialty: "General Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Paul Green", specialty: "Neurosurgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Olivia Clark", specialty: "Dermatology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Donald Lewis", specialty: "Internal Medicine", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Natalie Wilson", specialty: "Obstetrics & Gynecology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Peter Smith", specialty: "Cardiology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Joshua Anderson", specialty: "Trauma Surgery", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" },
+  { name: "Harriet Taylor", specialty: "Nephrology", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymF4Am_crLSm_gi5M_VyYyHDvJ-nhdpaVnw&s" }
+      ];
   
-      doctors.forEach((doctor) => {
-        const name = doctor.querySelector('.member-info h4').innerText.toLowerCase();
-        const specialty = doctor.querySelector('.member-info span').innerText.toLowerCase();
+      const doctorList = document.getElementById("doctorList");
+      const filterInput = document.getElementById("filterInput");
+      const searchButton = document.getElementById("searchButton");
+      const loadingMessage = document.getElementById("loadingMessage");
+      const noResultsMessage = document.getElementById("noResultsMessage");
   
-        // Show or hide doctor based on matching name or specialty
-        if (name.includes(searchInput) || specialty.includes(searchInput)) {
-          doctor.style.display = 'block';
+      // Function to display doctors
+      function displayDoctors(filteredDoctors) {
+        doctorList.innerHTML = ""; // Clear the list
+        loadingMessage.style.display = "none"; // Hide loading message
+  
+        if (filteredDoctors.length > 0) {
+          filteredDoctors.forEach((doctor) => {
+            const doctorCard = `
+              <div class="col-lg-3 col-md-6 align-items-stretch">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="${doctor.image}" class="img-fluid" alt="${doctor.name}">
+                  </div>
+                  <div class="member-info">
+                    <h4>${doctor.name}</h4>
+                    <span>${doctor.specialty}</span>
+                  </div>
+                </div>
+              </div>
+            `;
+            doctorList.innerHTML += doctorCard;
+          });
+          noResultsMessage.style.display = "none"; // Hide the "no results" message
         } else {
-          doctor.style.display = 'none';
+          noResultsMessage.style.display = "block"; // Show the "no results" message
         }
+      }
+  
+      // Search button functionality
+      searchButton.addEventListener("click", () => {
+        const searchTerm = filterInput.value.toLowerCase();
+        const filteredResults = doctors.filter((doctor) =>
+          doctor.name.toLowerCase().includes(searchTerm) ||
+          doctor.specialty.toLowerCase().includes(searchTerm)
+        );
+        displayDoctors(filteredResults);
       });
-    }
-  </script>
   
+      // Live filter functionality (instant search as user types)
+      filterInput.addEventListener("input", () => {
+        const searchTerm = filterInput.value.toLowerCase();
+        const filteredResults = doctors.filter((doctor) =>
+          doctor.name.toLowerCase().includes(searchTerm) ||
+          doctor.specialty.toLowerCase().includes(searchTerm)
+        );
+        displayDoctors(filteredResults);
+      });
   
-  <script>
-    function searchDoctors() {
-      const searchInput = document.getElementById('doctorSearch').value.toLowerCase();
-      const doctors = document.querySelectorAll('.doctor-item'); // Select all doctor items
+      // Initial loading and filtering based on URL query (if available)
+      function initializePage() {
+        const query = new URLSearchParams(window.location.search).get("query");
   
-      doctors.forEach((doctor) => {
-        const name = doctor.querySelector('.member-info h4').innerText.toLowerCase();
-        const specialty = doctor.querySelector('.member-info span').innerText.toLowerCase();
-  
-        // Show or hide doctor based on matching name or specialty
-        if (name.includes(searchInput) || specialty.includes(searchInput)) {
-          doctor.style.display = 'block';
-        } else {
-          doctor.style.display = 'none';
+        let filteredDoctors = doctors;
+        if (query) {
+          filteredDoctors = doctors.filter((doctor) =>
+            doctor.name.toLowerCase().includes(query.toLowerCase()) ||
+            doctor.specialty.toLowerCase().includes(query.toLowerCase())
+          );
         }
-      });
-    }
-  </script>
+  
+        displayDoctors(filteredDoctors);
+      }
+  
+      // Call initialize function on page load
+      initializePage();
+    </script>
   
   
  
 
   </main>
 
-  <footer id="footer" class="footer light-background">
+  <footer id="footer" class="footer light-background" style="margin-top: 200px;">
 
     <div class="container footer-top mb-5">
     <div class="row gy-4">
