@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - Medicio Bootstrap Template</title>
+  <title>Service Details - Medicio Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -28,18 +28,67 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-<!--Carousel for Testimonial-->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="style.css">
-
-
+  <!-- =======================================================
+  * Template Name: Medicio
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body class="starter-page-page">
+<body class="service-details-page">
+
+  <style>
+    .row.d-flex {
+  display: flex;
+}
+
+.row.d-flex .col-sm-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row.d-flex .box {
+  flex-grow: 1;
+  background-color: #f5f5f5; /* Optional: To see the boxes better */
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+  </style>
+
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-sm-4">
+        <div class="box">
+          <h2>Title 1</h2>
+          <p>Content for the first column.</p>
+          <p>Content for the first column.</p>
+          <p>Content for the first column.</p>
+          <p>Content for the first column.</p>
+          <p>Content for the first column.</p>
+          <p>Content for the first column.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="box">
+          <h2>Title 2</h2>
+          <p>Content for the second column.</p>
+          <p>Content for the second column.</p>
+          <p>Content for the second column.</p>
+          <p>Content for the second column.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="box">
+          <h2>Title 3</h2>
+          <p>Content for the third column.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
   <header id="header" class="header sticky-top">
 
@@ -57,7 +106,7 @@
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="assets/img/logo.png" alt="">
           <!-- Uncomment the line below if you also wish to use a text logo -->
           <!-- <h1 class="sitename">Medicio</h1>  -->
@@ -65,7 +114,7 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="../projectweb/index.php">Home</a></li>
+            <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#departments">Departments</a></li>
@@ -92,7 +141,7 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="cta-btn" href="index.html#appointment">Make an Appointment</a>
+        <a class="cta-btn" href="index.php#appointment">Make an Appointment</a>
 
       </div>
 
@@ -100,78 +149,17 @@
 
   </header>
 
-  
-
-  
-
-  
   <main class="main">
 
-    <!-- Gallery Section -->
-<section id="gallery" class="gallery section">
-
-<!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>Gallery</h2>
-  <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-</div><!-- End Section Title -->
-
-<div class="container" data-aos="fade-up" data-aos-delay="100">
-
-  <div class="swiper init-swiper">
-    <script type="application/json" class="swiper-config">
-      {
-        "loop": true,
-        "speed": 600,
-        "autoplay": {
-          "delay": 5000
-        },
-        "slidesPerView": "auto",
-        "centeredSlides": true,
-        "pagination": {
-          "el": ".swiper-pagination",
-          "type": "bullets",
-          "clickable": true
-        },
-        "breakpoints": {
-          "320": {
-            "slidesPerView": 1,
-            "spaceBetween": 0
-          },
-          "768": {
-            "slidesPerView": 3,
-            "spaceBetween": 20
-          },
-          "1200": {
-            "slidesPerView": 5,
-            "spaceBetween": 20
-          }
-        }
-      }
-    </script>
-    <div class="swiper-wrapper align-items-center">
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-      <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+    
+<div class="col-lg-6" title="Metro Iloilo Hospital &amp; Medical Center, Inc. Glimpse">
+    <div class="video text-center">
+        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/MIHMCIPH/" data-tabs="timeline" data-width="1200" data-height="655" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=540&amp;height=655&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FMIHMCIPH%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=1200"><span style="vertical-align: bottom; width: 500px; height: 655px;"><iframe name="f4573de2ce867b35a" width="1200px" height="655px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://web.facebook.com/v7.0/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df56e6fbd176d870e7%26domain%3Dmetroiloilohospital.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmetroiloilohospital.com%252Ff4c3dc9d4a7413746%26relation%3Dparent.parent&amp;container_width=540&amp;height=655&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FMIHMCIPH%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=1200" style="border: none; visibility: visible; width: 500px; height: 655px;" class=""></iframe></span></div>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
-
 </div>
 
-    <!-- Starter Section Section -->
-    <section id="starter-section" class="starter-section section">
+    <!-- Service Details Section -->
 
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
-      </div>
-
-    </section><!-- /Starter Section Section -->
 
   </main>
 
@@ -180,7 +168,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <span class="sitename">Medicio</span>
           </a>
           <div class="footer-contact pt-3">

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Rehabilitation</title>
+  <title>Laparascopic</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,31 +37,31 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.html" style="font-size: 15px;">Home</a></li>
-            <li><a href="../about.html" style="font-size: 15px;">About</a></li>
-            <li><a href="../services.html" style="font-size: 15px;">Services</a></li>
-            <li><a href="../departments.html"  class="active" style="font-size: 15px;">Departments</a></li>
-            <li><a href="../doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="../index.php"  style="font-size: 15px;">Home</a></li>
+            <li><a href="../about.php" style="font-size: 15px;">About</a></li>
+            <li><a href="../services.php" style="font-size: 15px;">Services</a></li>
+            <li><a href="../departments.php" class="active" style="font-size: 15px;">Departments</a></li>
+            <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="../faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="../contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="../contact.php" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
-        <!-- Search Form -->
-        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+         <!-- Search Form -->
+         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -72,125 +72,32 @@
 
   <main class="main">
 
- <!-- Section Title -->
- <div class="container section-title" data-aos="fade-up">
-  <h2 class="text-center mt-5">Rehabilitation Center</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">9:00AM to 5:00PM Mon to Sat | Ground Floor Ancillary Building | 327-1527 loc. 8127</p>
+
+
+
+   <!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2 class="text-center mt-5">Laparascopic Surgery</h2>
+  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our hospital offers laparoscopic surgery, a minimally invasive option for quicker recovery and less pain. Performed by skilled surgeons, it provides effective treatment with shorter hospital stays.</p>
 </div><!-- End Section Title -->
 
 
-
-
-  <style>
-    .gallery img {
-      width: 100%;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
-
-<div class="container my-5">
-  <div class="mt-5">
-    <div class="container">
-      <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Services Offered:</h3>
-        <div class="row">
-          <div class="col-sm">
-            <ul class="mb-5" style="font-size: 25px;">
-                <li>Electrotherapy</li>
-                <li>Manual Therapy</li>
-                <li>Gait Re-training</li>
-                <li>Pain Management
-                </li>
-            </ul>
-          </div>
-        </div>
+<!--Doctor Anayan-->
+<div class="mg-about-features mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 "  title="Metro Iloilo Hospital &amp; Medical Center, Inc. The OPCC">
+         <img class="img-fluid" src="../Doctors Pictures/Segundo Anayan Jr MD - Metro Iloilo Hospital and Medical Center Inc.jpg" alt="" width="100%" height="409">
       </div>
-  </div>
-</div>
-
-<div class="container my-2">
-  <div class="row gallery">
-    <!-- Column 1 -->
-    <div class="col-md-6">
-      <img src="../Images/rehabilitation-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-6">
-      <img src="../Images/rehabilitation-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-  </div>
-
-  <div class="row gallery my-2">
-    <!-- Column 1 -->
-    <div class="col-md-6">
-      <img src="../Images/rehabilitation-3.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-6">
-      <img src="../Images/rehabilitation-4.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-  </div>
-
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
+    <div class="col-md-12"  title="Metro Iloilo Hospital &amp; Medical Center, Inc. The OPCC">
+      <h2 class="text-center my-5" style="font-size: 26px;">Single Incision Laparoscopic Cholecystectomy. Almost SCARLESS surgery.</h2>
+        <iframe width="100%" height="609" src="https://www.youtube.com/embed/xDNiy8xAbyo?autoplay=1&amp;mute=1&amp;modestbranding=1&amp;loop=1&amp;playlist=xDNiy8xAbyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+   </div>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Bootstrap 5 JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
-
-<script>
-  // JavaScript function to open the modal with the selected image
-  function openModal(src) {
-    document.getElementById('modalImage').src = src;
-    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
-    myModal.show();
-  }
-
-  // Close button functionality
-  document.getElementById('closeModalButton').addEventListener('click', function() {
-    var myModalEl = document.getElementById('imageModal');
-    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
-    modal.hide(); // Close the modal
-  });
-</script>
     
-    
-    
-
-  
-    
-
-   
-      
-          <!-- Starter Section Section --8
-          <section id="starter-section" class="starter-section section">
-      
-            <div class="container" data-aos="fade-up">
-              <p>Use this page as a starter for your own custom pages.</p>
-            </div6
-      
-          </section><!-- /Starter Section Section -->
 
   </main>
 
@@ -199,7 +106,7 @@
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">

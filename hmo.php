@@ -26,7 +26,7 @@
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
 
 </head>
@@ -37,31 +37,31 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
+          <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="index.html"  style="font-size: 15px;">Home</a></li>
-            <li><a href="about.html" style="font-size: 15px;">About</a></li>
-            <li><a href="services.html" style="font-size: 15px;">Services</a></li>
-            <li><a href="departments.html" style="font-size: 15px;">Departments</a></li>
-            <li><a href="doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="index.php"  style="font-size: 15px;">Home</a></li>
+            <li><a href="about.php" style="font-size: 15px;">About</a></li>
+            <li><a href="services.php" class="active" style="font-size: 15px;">Services</a></li>
+            <li><a href="departments.php" style="font-size: 15px;">Departments</a></li>
+            <li><a href="doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="contact.html" class="active" style="font-size: 15px;">Contact</a></li>
+            <li><a href="faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="contact.php"  style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
         <!-- Search Form -->
-        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+        <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -182,6 +182,26 @@ CSS.g-6,
     padding-bottom: 4.5rem !important;
   }
 }
+.section-background {
+    background-color: #343a40; /* Dark background color */
+    background-image: url('Images/sample-design.png'); /* Optional background image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the background image */
+    padding: 50px 0; /* Adds vertical spacing */
+    color: #fff; /* Ensures text is visible on dark background */
+}
+
+.section-title h2 {
+    margin-bottom: 20px; /* Adds spacing below the title */
+}
+
+.video-container video {
+    max-width: 80%; /* Ensures the video is responsive */
+    max-height: 500px; /* Restricts video height */
+    border-radius: 10px; /* Optional: adds rounded corners to the video */
+}
+
+
   </style>
 
   <main class="main">
@@ -191,31 +211,22 @@ CSS.g-6,
     
 
 
-<!-- Section Title -->
-   <div class="container section-title mt-5" data-aos="fade-up">
-    <h2 class="text-center">Health Maintenance Organization</h2>
-    <!-- <p class="title-paragraph text-center">A 110 bed modern hospital in Metropolis road, Tagbak, Jaro, Iloilo City.</p> -->
-  </div><!-- End Section Title -->
+     <div class="section-background">
+    <div class="container section-title mt-5" data-aos="fade-up">
+        <h2 class="text-center text-light">Health Maintenance Organization</h2>
+        <!-- <p class="title-paragraph text-center text-light">A 110 bed modern hospital in Metropolis road, Tagbak, Jaro, Iloilo City.</p> -->
+    </div><!-- End Section Title -->
 
-  <div class="container d-flex justify-content-center align-items-center ">
-    <div class="row">
-      <div class="col-12 col-md-8">
-        <!-- Video Player -->
-        <video controls >
-          <source src="https://metroiloilohospital.com/vid/mm.mp4#t=02" type="video/mp4">
-          Your browser does not support the video tag.
+    <div class="col-md-12 py-3 d-flex justify-content-center align-items-center">
+        <!-- Right Column with Centered Video -->
+        <video autoplay muted loop controls class="img-fluid">
+            <source src="https://metroiloilohospital.com/vid/hmo.mp4#t=00:03" type="video/mp4">
+            Your browser does not support the video tag.
         </video>
-      </div>
     </div>
-  </div>
-
-  <div class="col-md-6 py-3 order-1 order-lg-2 justify-content-center align-items-center">
-    <!-- Right Column with Video and Poster Image -->
-    <video autoplay muted loop controls ="../Pictures/metro-hospital.jpg" class="img-fluid">
-        <source src="https://metroiloilohospital.com/vid/mm.mp4#t=02" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
 </div>
+
+
  
     <!-- Client 1 - HCF Bootstrap 5 Component -->
     <section class="py-xl-6">
@@ -294,7 +305,7 @@ CSS.g-6,
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">

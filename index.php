@@ -85,7 +85,7 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
@@ -98,8 +98,8 @@
             <li><a href="#doctors" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
             <li><a href="#gallery" style="font-size: 15px;">FAQ'S</a></li>
@@ -110,7 +110,7 @@
   
        
         <!-- Search Form -->
-        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+        <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -135,7 +135,7 @@
         <p class="text-dark mt-3">Metro Iloilo Hospital and Medical Center, Inc. (MIHMCI) provides the highest quality patient-focused health care that offers comprehensive and personalized packages. 
           The executive packages provide screening programs intended to improve the prevention of illness and identify potential disease complications.</p>
         <div class="d-flex">
-          <a href="about.html" class="btn-get-started">Read More</a>
+          <a href="about.php" class="btn-get-started">Read More</a>
           <!-- <a href="https://metroiloilohospital.com/vid/mm.mp4#t=02" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span class="text-danger">Watch Video</span></a> -->
         </div>
       </div>
@@ -224,7 +224,7 @@
         
         
         <div class="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="500">
-          <a href="About.html" class="btn btn-primary mt-4">Read More</a>
+          <a href="About.php" class="btn btn-primary mt-4">Read More</a>
       </div>
       
       </div>
@@ -249,7 +249,7 @@
               <h3 class="fs-6 text-secondary mb-3 mb-xl-4 text-uppercase">What We Do?</h3>
               <h2 class="mb-3 mb-xl-4">Providing Exceptional Care Through Our Comprehensive Services.</h2>
               <p class="mb-3 mb-xl-4" style="font-size: 18px;">At our hospital, we offer a wide range of medical services designed to cater to your health needs and promote your well-being. Our dedicated team of healthcare professionals is committed to delivering compassionate care and innovative treatments in a safe environment. Whether you require emergency services, specialized treatments, or routine check-ups, we are here to support you every step of the way. Contact us today to learn more about how we can help you achieve optimal health. Your well-being is our top priority.</p>
-              <a href="services.html" class="btn bsb-btn-2xl btn-primary rounded-pill">More Details</a>
+              <a href="services.php" class="btn bsb-btn-2xl btn-primary rounded-pill">More Details</a>
           </div>
       </div>
       
@@ -262,7 +262,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/1106/1106992.png" alt="Pharmacy Icon" width="56" height="56" class="text-primary mb-4" />
                 <h4 class="mb-4">Pharmacy</h4>
                 <p class="mb-4 text-secondary">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
-                <a href="services.html" class="fw-bold text-decoration-none link-primary">
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -277,7 +277,7 @@
                 <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/laparoscopy-1609480-1362222.png" alt="Laparoscopic Surgery Icon" width="56" height="56" class="text-primary mb-4" />
                 <h4 class="mb-4">Laparoscopic Surgery</h4>
                 <p class="mb-4 text-secondary">Performed by the best laparascopic surgeon, Dr. Segundo Anayan, Jr.</p>
-                <a href="services.html" class="fw-bold text-decoration-none link-primary">
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -292,7 +292,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/5278/5278330.png" alt="Endoscopy Icon" width="56" height="56" class="text-primary mb-4" />
                 <h4 class="mb-4">One Endoscopy Unit</h4>
                 <p class="mb-4 text-secondary">• Esophagogastroduodenoscopy <br></p>
-                <a href="services.html" class="fw-bold text-decoration-none link-primary">
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -307,7 +307,7 @@
                 <img src="https://www.svgrepo.com/show/326007/outpatient.svg" alt="Out-patient Care Icon" width="56" height="56" class="text-primary mb-4" />
                 <h4 class="mb-4">Out-patient Care Complex (OPCC)</h4>
                 <p class="mb-4 text-secondary">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
-                <a href="services.html" class="fw-bold text-decoration-none link-primary">
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -390,7 +390,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Pharmacy</h3>
                 <p >Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life. will served as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high quality and patient centered pharmacy services through continuum pharmaceutical care.</p>
-                  <a href="departments/pharmacy.html" class="btn btn-primary mt-3">Learn More</a>
+                  <a href="departments/pharmacy.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/cardio-5.jpg" alt="" class="img-fluid">
@@ -404,7 +404,7 @@
                 <h3>Laparascopic Surgery</h3>
                 <p>Single Incision Laparoscopic Cholecystectomy.</p>
                 <p>Almost SCARLESS surgery.</p>
-                <a href="departments/laparascopic.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/laparascopic.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="" alt="" class="img-fluid">
@@ -417,7 +417,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>One Endoscopy Unit</h3>
                 <p>An endoscopy is used in medicine to look inside the body. The endoscopy procedure uses an endoscope to examine the interior of a hollow organ or cavity of the body.</p>
-                <a href="departments/laparascopic.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/laparascopic.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/endoscopy-2.jpg" alt="" class="img-fluid">
@@ -430,7 +430,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Out-Patient Care Complex</h3>
                 <p> The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center.    The OPCC aims to deliver the utmost compassionate healthcare services located within a single establishment.</p>
-                <a href="departments/outpatient.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/outpatient.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
@@ -444,7 +444,7 @@
                 <h3>Cardio-Pulmo</h3>
                 <p>Our Cardiology and Pulmonology Departments offer advanced diagnostic and treatment options, with a team of specialists dedicated to heart and lung health for comprehensive, compassionate care.</p>
 
-                <a href="departments/cardio-pulmo.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/cardio-pulmo.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/cardio-2.jpg" alt="" class="img-fluid">
@@ -457,7 +457,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Radiology</h3>
                 <p>The best medical imaging provider in Iloilo City. State of the art diagnostic imaging modalities. Qualified and competent diagnostic consultants and personnel with continuous medical education and training or consultants and staff. Promotes a prompt diagnostic results Application of Hospital Information System To come up with residency training and research program To provide convenience and comfort by bringing diagnostic equipments to patient.</p>
-                <a href="departments/radiology.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/radiology.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/radiology-13.jpg" alt="" class="img-fluid">
@@ -470,7 +470,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Operating Room Complex</h3>
                 <p>Our Operating Room Complex is a modern, high-tech facility designed for a wide range of surgical procedures. Staffed by expert surgeons and support teams, it ensures safe, precise, and compassionate care to achieve the best outcomes for our patients.</p>
-                <a href="departments/operating-room.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/operating-room.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/operating-12.jpg" alt="" class="img-fluid">
@@ -483,7 +483,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Intensive Care Unit</h3>
                 <p>Our Intensive Care Unit (ICU) provides specialized, around-the-clock care for critically ill patients. Staffed by expert medical professionals and equipped with advanced technology, our ICU ensures each patient receives personalized, immediate attention to support recovery and well-being.</p>
-                <a href="departments/intensive-care.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/intensive-care.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/intensive-care-3.jpg" alt="" class="img-fluid">
@@ -496,7 +496,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Emergency Room</h3>
                 <p>Our Emergency Room (ER) operates 24/7, providing rapid and efficient care for urgent medical needs. Staffed by a dedicated team of emergency specialists, we prioritize quick assessment and treatment for a wide range of conditions, ensuring that every patient receives immediate attention.</p>
-                <a href="departments/emergency-room.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/emergency-room.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/emergency-3.jpg" alt="" class="img-fluid">
@@ -509,7 +509,7 @@
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Dialysis Unit</h3>
                 <p>Our Dialysis Unit provides specialized care for patients with kidney disease, offering hemodialysis and peritoneal dialysis in a comfortable environment. Our skilled team prioritizes personalized treatment and patient education to help individuals manage their condition and enhance their quality of life.</p>
-                <a href="departments/dialysis-unit.html" class="btn btn-primary mt-3">Learn More</a>
+                <a href="departments/dialysis-unit.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/dialysis-4.jpg" alt="" class="img-fluid">
@@ -580,8 +580,8 @@
     const query = searchInput.value.trim(); // Get the search query from input field
 
     if (query) {
-      // Redirect to doctor.html with query parameter
-      window.location.href = `doctor.html?query=${encodeURIComponent(query)}`;
+      // Redirect to doctor.php with query parameter
+      window.location.href = `doctor.php?query=${encodeURIComponent(query)}`;
     } else {
       // Alert if the input field is empty
       alert("PLEASE ENTER A DOCTOR NAME.");
@@ -593,7 +593,7 @@
     if (event.key === "Enter") {
       const query = searchInput.value.trim();
       if (query) {
-        window.location.href = `doctor.html?query=${encodeURIComponent(query)}`;
+        window.location.href = `doctor.php?query=${encodeURIComponent(query)}`;
       } else {
         alert("PLEASE ENTER A DOCTOR NAME.");
       }
@@ -1042,7 +1042,7 @@
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">

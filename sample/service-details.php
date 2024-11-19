@@ -39,66 +39,15 @@
 
 <body class="service-details-page">
 
-  <style>
-    .row.d-flex {
-  display: flex;
-}
+  <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
 
-.row.d-flex .col-sm-4 {
-  display: flex;
-  flex-direction: column;
-}
-
-.row.d-flex .box {
-  flex-grow: 1;
-  background-color: #f5f5f5; /* Optional: To see the boxes better */
-  padding: 20px;
-  border: 1px solid #ddd;
-}
-
-  </style>
-
-  <div class="container">
-    <div class="row d-flex">
-      <div class="col-sm-4">
-        <div class="box">
-          <h2>Title 1</h2>
-          <p>Content for the first column.</p>
-          <p>Content for the first column.</p>
-          <p>Content for the first column.</p>
-          <p>Content for the first column.</p>
-          <p>Content for the first column.</p>
-          <p>Content for the first column.</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="box">
-          <h2>Title 2</h2>
-          <p>Content for the second column.</p>
-          <p>Content for the second column.</p>
-          <p>Content for the second column.</p>
-          <p>Content for the second column.</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="box">
-          <h2>Title 3</h2>
-          <p>Content for the third column.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
-  <header id="header" class="header sticky-top">
-
-    <div class="topbar d-flex align-items-center">
+    <div class="topbar d-flex align-items-center" style="background-color: #007bff;">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="d-none d-md-flex align-items-center">
-          <i class="bi bi-clock me-1"></i> Monday - Saturday, 8AM to 10PM
+          <i class="bi bi-clock me-1"></i> Open 24 Hours
         </div>
         <div class="d-flex align-items-center">
-          <i class="bi bi-phone me-1"></i> Call us now +1 5589 55488 55
+          <i class="bi bi-phone me-1"></i> 033 327-1527 | 033 327-2030
         </div>
       </div>
     </div><!-- End Top Bar -->
@@ -106,23 +55,24 @@
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="assets/img/logo.png" alt="">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <img src="Icons/metroboom.png" alt="logo" class="img-fluid" style="max-height: 100px; height: auto;">
+
           <!-- Uncomment the line below if you also wish to use a text logo -->
           <!-- <h1 class="sitename">Medicio</h1>  -->
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero">Home</a></li>
+            <li><a href="index.php" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#departments">Departments</a></li>
+            <!-- <li><a href="#departments">Departments</a></li> -->
             <li><a href="#doctors">Doctors</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li class="dropdown"><a href="#"><span>Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <li><a href="#">Rates</a></li>
+                <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                   <ul>
                     <li><a href="#">Deep Dropdown 1</a></li>
                     <li><a href="#">Deep Dropdown 2</a></li>
@@ -130,10 +80,9 @@
                     <li><a href="#">Deep Dropdown 4</a></li>
                     <li><a href="#">Deep Dropdown 5</a></li>
                   </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
+                </li> -->
+                <li><a href="#">Packages</a></li>
+           
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
@@ -141,7 +90,8 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="cta-btn" href="index.html#appointment">Make an Appointment</a>
+        <a class="cta-btn" href="index.php#appointment">Make an Appointment</a>
+        
 
       </div>
 
@@ -151,15 +101,77 @@
 
   <main class="main">
 
-    
-<div class="col-lg-6" title="Metro Iloilo Hospital &amp; Medical Center, Inc. Glimpse">
-    <div class="video text-center">
-        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/MIHMCIPH/" data-tabs="timeline" data-width="1200" data-height="655" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=540&amp;height=655&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FMIHMCIPH%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=1200"><span style="vertical-align: bottom; width: 500px; height: 655px;"><iframe name="f4573de2ce867b35a" width="1200px" height="655px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://web.facebook.com/v7.0/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df56e6fbd176d870e7%26domain%3Dmetroiloilohospital.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmetroiloilohospital.com%252Ff4c3dc9d4a7413746%26relation%3Dparent.parent&amp;container_width=540&amp;height=655&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FMIHMCIPH%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=1200" style="border: none; visibility: visible; width: 500px; height: 655px;" class=""></iframe></span></div>
-    </div>
-</div>
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1 class="heading-title">Service Details</h1>
+              <p class="mb-0">
+                Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
+                odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum
+                debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat
+                ipsum dolorem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.php">Home</a></li>
+            <li class="current">Service Details</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
 
     <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
 
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" class="active">Web Design</a>
+              <a href="#">Software Development</a>
+              <a href="#">Product Management</a>
+              <a href="#">Graphic Design</a>
+              <a href="#">Marketing</a>
+            </div>
+
+            <h4>Enim qui eos rerum in delectus</h4>
+            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
 
   </main>
 
@@ -168,7 +180,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <span class="sitename">Medicio</span>
           </a>
           <div class="footer-contact pt-3">

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Pharmacy</title>
+  <title>Contact</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -26,7 +26,7 @@
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
 
 </head>
@@ -37,31 +37,31 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
+          <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.html" style="font-size: 15px;">Home</a></li>
-            <li><a href="../about.html" style="font-size: 15px;">About</a></li>
-            <li><a href="../services.html" style="font-size: 15px;">Services</a></li>
-            <li><a href="../departments.html" class="active" style="font-size: 15px;">Departments</a></li>
-            <li><a href="../doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="index.php"  style="font-size: 15px;">Home</a></li>
+            <li><a href="about.php" style="font-size: 15px;">About</a></li>
+            <li><a href="services.php" style="font-size: 15px;">Services</a></li>
+            <li><a href="departments.php" style="font-size: 15px;">Departments</a></li>
+            <li><a href="doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="../faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="../contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="contact.php" class="active" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
         <!-- Search Form -->
-        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+        <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -73,112 +73,103 @@
   <main class="main">
 
 
-    <!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2 class="text-center mt-5">Pharmacy</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 19px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">  Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life. will served as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high quality and patient centered pharmacy services through continuum pharmaceutical care.</p>
-</div><!-- End Section Title -->
+ <!-- Contact Section -->
+ <section id="contact" class="contact section">
 
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2 class="text-center">Contact</h2>
+    <p class="text-center"><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+  </div><!-- End Section Title -->
 
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-  <style>
-    .gallery img {
-      width: 100%;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
+    <div class="row gy-4">
 
-  <!--Pictures-->
-<div class="container my-5">
-  <h2 class="text-center mb-5" style="font-size: 20px;">  The pharmacy is powered by a pnuematic system for automated delivery of medicines to corresponding stations.</h2>
-  <div class="row gallery">
-    <!-- Column 1 -->
-    <div class="col-md-4">
-      <img src="../Images/pharmacy-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-4">
-      <img src="../Images/pharmacy-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 3 -->
-    <div class="col-md-4">
-      <img src="../Images/pharmacy-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 4 -->
-  </div>
-</div>
+      <div class="col-lg-5">
 
+        <div class="info-wrap">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Metropolis Ave, Brgy. Tagbak, Jaro, Iloilo City, Iloilo, Philippines</p>
+            </div>
+          </div><!-- End Info Item -->
 
-<div class="container my-5">
-  <div class="row gallery">
-    <!-- Column 1 -->
-    <div class="col-md-6">
-      <img src="../Images/pharmacy-7.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-6">
-      <img src="../Images/pharmacy-8.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 3 -->
-  </div>
-</div>
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Call Us</h3>
+              <p> 033 327-1527</p>
+              <p> 033 327-2030</p>
+            </div>
+          </div><!-- End Info Item -->
 
-<div class="container my-5">
-  <div class="row gallery">
-    <!-- Column 1 -->
-    <div class="col-md-4">
-      <img src="../Images/pharmacy-4.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-4">
-      <img src="../Images/pharmacy-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 3 -->
-    <div class="col-md-4">
-      <img src="../Images/pharmacy-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 4 -->
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Us</h3>
+              <a href="mailto:example@example.com">marketing@metroiloilohospital.com</a>
+              <a href="mailto:example@example.com">admin@metroiloilohospital.com</a>
+              <a href="mailto:example@example.com">hr@metroiloilohospital.com</a>
+              <a href="mailto:example@example.com">nso@metroiloilohospital.com</a>
+            </div>
+          </div><!-- End Info Item -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.543030320536!2d122.5809256!3d10.7625297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee48040ce2179%3A0xa4e800a96a8b99a6!2sMetro%20Iloilo%20Hospital%20and%20Medical%20Center%2C%20Inc.!5e0!3m2!1sen!2sph!4v1729491890031!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
-      </div>
+
+      <div class="col-lg-7">
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <label for="name-field" class="pb-2">Your Name</label>
+              <input type="text" name="name" id="name-field" class="form-control" required="">
+            </div>
+
+            <div class="col-md-6">
+              <label for="email-field" class="pb-2">Your Email</label>
+              <input type="email" class="form-control" name="email" id="email-field" required="">
+            </div>
+
+            <div class="col-md-12">
+              <label for="subject-field" class="pb-2">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject-field" required="">
+            </div>
+
+            <div class="col-md-12">
+              <label for="message-field" class="pb-2">Message</label>
+              <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Contact Form -->
+
     </div>
+
   </div>
-</div>
+
+</section><!-- /Contact Section -->
+ 
+ 
+</section><!-- /Contact Section -->
 
 
-<script>
-  // JavaScript function to open the modal with the selected image
-  function openModal(src) {
-    document.getElementById('modalImage').src = src;
-    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
-    myModal.show();
-  }
 
-  // Close button functionality
-  document.getElementById('closeModalButton').addEventListener('click', function() {
-    var myModalEl = document.getElementById('imageModal');
-    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
-    modal.hide(); // Close the modal
-  });
-</script>
+    
+ 
 
   </main>
 
@@ -187,7 +178,7 @@
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">

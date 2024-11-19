@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Laparascopic</title>
+  <title>Operating-Room</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,31 +37,31 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.html"  style="font-size: 15px;">Home</a></li>
-            <li><a href="../about.html" style="font-size: 15px;">About</a></li>
-            <li><a href="../services.html" style="font-size: 15px;">Services</a></li>
-            <li><a href="../departments.html" class="active" style="font-size: 15px;">Departments</a></li>
-            <li><a href="../doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="../index.php"style="font-size: 15px;">Home</a></li>
+            <li><a href="../about.php" style="font-size: 15px;">About</a></li>
+            <li><a href="../services.php" style="font-size: 15px;">Services</a></li>
+            <li><a href="../departments.php" class="active" style="font-size: 15px;">Departments</a></li>
+            <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="../faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="../contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="../contact.php" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
          <!-- Search Form -->
-         <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -72,41 +72,170 @@
 
   <main class="main">
 
+ <style>
+    .gallery img {
+      width: 100%;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
 
+ <!--About us Title Description-->
 
-
-   <!-- Section Title -->
+    <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
-  <h2 class="text-center mt-5">Laparascopic Surgery</h2>
+  <h2 class="text-center mt-5">Operating Room Complex</h2>
   <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our hospital offers laparoscopic surgery, a minimally invasive option for quicker recovery and less pain. Performed by skilled surgeons, it provides effective treatment with shorter hospital stays.</p>
 </div><!-- End Section Title -->
 
+ 
 
-<!--Doctor Anayan-->
-<div class="mg-about-features mb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 "  title="Metro Iloilo Hospital &amp; Medical Center, Inc. The OPCC">
-         <img class="img-fluid" src="../Doctors Pictures/Segundo Anayan Jr MD - Metro Iloilo Hospital and Medical Center Inc.jpg" alt="" width="100%" height="409">
-      </div>
-    <div class="col-md-12"  title="Metro Iloilo Hospital &amp; Medical Center, Inc. The OPCC">
-      <h2 class="text-center my-5" style="font-size: 26px;">Single Incision Laparoscopic Cholecystectomy. Almost SCARLESS surgery.</h2>
-        <iframe width="100%" height="609" src="https://www.youtube.com/embed/xDNiy8xAbyo?autoplay=1&amp;mute=1&amp;modestbranding=1&amp;loop=1&amp;playlist=xDNiy8xAbyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-   </div>
+
+    <div class="mt-5">
+      <div class="container">
+        <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Operating Room Complex: </h3>
+          <div class="row">
+            <div class="col-sm">
+              <ul class="mb-5" style="font-size: 25px; margin: 10px 20px;">
+                  <li >Operating Room</li>
+                  <li >Delivery Room</li>
+                  <li >Labor Room</li>
+                  <li >Recovery Room</li>
+                  <li >Elastography</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="container my-5">
+      <div class="row gallery">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 4 -->
       </div>
     </div>
-  </div>
-</div>
+    
+    <div class="container my-5">
+      <div class="row gallery">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-4.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 4 -->
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row gallery">
+        <!-- Column 1 -->
+        <div class="col-md-6">
+          <img src="../Images/operating-13.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-6">
+          <img src="../Images/operating-14.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 3 -->
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row gallery">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-7.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-8.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-12.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 4 -->
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row gallery">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-10.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-11.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <img src="../Images/operating-9.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+        </div>
+        <!-- Column 4 -->
+      </div>
+    </div>
+
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <img id="modalImage" src="" alt="Large view" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     
 
-  </main>
 
+    
+      
+          <!-- Starter Section Section --8
+          <section id="starter-section" class="starter-section section">
+      
+            <div class="container" data-aos="fade-up">
+              <p>Use this page as a starter for your own custom pages.</p>
+            </div6
+      
+          </section><!-- /Starter Section Section -->
+
+  </main>
   <footer id="footer" class="footer light-background">
 
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">

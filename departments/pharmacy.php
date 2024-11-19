@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>intensive-care</title>
+  <title>Pharmacy</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,34 +37,34 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.html" style="font-size: 15px;">Home</a></li>
-            <li><a href="../about.html" style="font-size: 15px;">About</a></li>
-            <li><a href="../services.html" style="font-size: 15px;">Services</a></li>
-            <li><a href="../departments.html" class="active" style="font-size: 15px;">Departments</a></li>
-            <li><a href="../doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="../index.php" style="font-size: 15px;">Home</a></li>
+            <li><a href="../about.php" style="font-size: 15px;">About</a></li>
+            <li><a href="../services.php" style="font-size: 15px;">Services</a></li>
+            <li><a href="../departments.php" class="active" style="font-size: 15px;">Departments</a></li>
+            <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="../faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="../contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="../contact.php" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
-     <!-- Search Form -->
-     <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
-      <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
-      <button class="btn btn-outline-light" type="submit">Search</button>
-    </form>
+        <!-- Search Form -->
+        <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
   
       </div>
     </div>
@@ -72,27 +72,14 @@
 
   <main class="main">
 
-<!-- Section Title -->
+
+    <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
-  <h2 class="text-center mt-5">Intensive Care Unit</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">7:00AM to 4:00PM | Mon to Sat | Ground Floor | 327-1527 loc. 8120</p>
+  <h2 class="text-center mt-5">Pharmacy</h2>
+  <p class="title-paragraph text-center mt-4" style="font-size: 19px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">  Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life. will served as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high quality and patient centered pharmacy services through continuum pharmaceutical care.</p>
 </div><!-- End Section Title -->
 
 
-    <!-- Page Title -->
-  <!-- <div class="page-title" style="background-color: rgb(27, 64, 128)">
-    <div class="heading">
-      <div class="container">
-        <div class="row d-flex justify-content-center text-center">
-          <div class="col-lg-8">
-            <h1 class="heading-title text-light"style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Intensive Care Unit</h1>
-           
-              </div>
-             
-        </div>
-      </div>
-    </div> -->
-  </div><!-- End Page Title -->
 
   <style>
     .gallery img {
@@ -108,74 +95,59 @@
 </head>
 <body>
 
-  <style>
-    .gallery img {
-      width: 100%;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
-
-<div class="container mt-4">
+  <!--Pictures-->
+<div class="container my-5">
+  <h2 class="text-center mb-5" style="font-size: 20px;">  The pharmacy is powered by a pnuematic system for automated delivery of medicines to corresponding stations.</h2>
   <div class="row gallery">
     <!-- Column 1 -->
-    <div class="col-md-3">
-      <img src="../Images/intensive-care-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    <div class="col-md-4">
+      <img src="../Images/pharmacy-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 2 -->
-    <div class="col-md-3 my-5">
-      <img src="../Images/intensive-care-3.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-
+    <div class="col-md-4">
+      <img src="../Images/pharmacy-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 3 -->
-    <div class="col-md-3 my-5">
-      <img src="../Images/intensive-care-4.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    <div class="col-md-4">
+      <img src="../Images/pharmacy-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 4 -->
-    <div class="col-md-3">
-      <img src="../Images/intensive-care-2.jpg" alt="Image 4" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
   </div>
 </div>
 
 
-<h2 class="text-center my-5" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Neonatal ICU</h2>
-
-<div class="container mt-4">
-  <div class="row gallery ">
-
-    <div class="col-md-4 my-3">
-      <img src="../Images/intensive-care-5.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-4 mt-3">
-      <img src="../Images/intensive-care-6.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-
-    </div>
-    <!-- Column 3 -->
-    <div class="col-md-4 my-3">
-      <img src="../Images/intensive-care-7.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-
+<div class="container my-5">
+  <div class="row gallery">
     <!-- Column 1 -->
     <div class="col-md-6">
-      <img src="../Images/neonatal-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+      <img src="../Images/pharmacy-7.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 2 -->
     <div class="col-md-6">
-      <img src="../Images/neonatal-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+      <img src="../Images/pharmacy-8.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 3 -->
-
-
   </div>
 </div>
+
+<div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/pharmacy-4.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/pharmacy-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/pharmacy-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 4 -->
+  </div>
+</div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
@@ -191,42 +163,22 @@
   </div>
 </div>
 
-<!-- Bootstrap 5 JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 
+<script>
+  // JavaScript function to open the modal with the selected image
+  function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+    myModal.show();
+  }
 
-  
-
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-    
-    
-    
-
-    
-          <!-- Starter Section Section --8
-          <section id="starter-section" class="starter-section section">
-      
-            <div class="container" data-aos="fade-up">
-              <p>Use this page as a starter for your own custom pages.</p>
-            </div6
-      
-          </section><!-- /Starter Section Section -->
+  // Close button functionality
+  document.getElementById('closeModalButton').addEventListener('click', function() {
+    var myModalEl = document.getElementById('imageModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+    modal.hide(); // Close the modal
+  });
+</script>
 
   </main>
 
@@ -235,7 +187,7 @@
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">
@@ -310,8 +262,6 @@
 
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 </body>
 

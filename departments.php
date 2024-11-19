@@ -26,7 +26,7 @@
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
 
 </head>
@@ -37,31 +37,31 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
+          <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="index.html" style="font-size: 15px;">Home</a></li>
-            <li><a href="about.html" style="font-size: 15px;">About</a></li>
-            <li><a href="services.html" style="font-size: 15px;">Services</a></li>
-            <li><a href="departments.html" class="active" style="font-size: 15px;">Departments</a></li>
-            <li><a href="doctor.html" style="font-size: 15px;">Doctors</a></li>
+            <li><a href="index.php" style="font-size: 15px;">Home</a></li>
+            <li><a href="about.php" style="font-size: 15px;">About</a></li>
+            <li><a href="services.php" style="font-size: 15px;">Services</a></li>
+            <li><a href="departments.php" class="active" style="font-size: 15px;">Departments</a></li>
+            <li><a href="doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="contact.php" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
          <!-- Search Form -->
-         <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -90,28 +90,28 @@
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/1106/1106992.png" alt="Eye Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/pharmacy.html" class="stretched-link">Pharmacy</a></h3>
+            <h3 class="mt-4"><a href="departments/pharmacy.php" class="stretched-link">Pharmacy</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
           <div class="features-item">
             <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/laparoscopy-1609480-1362222.png" alt="Infinity Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/laparascopic.html" class="stretched-link">Laparascopic Surgery</a></h3>
+            <h3 class="mt-4"><a href="departments/laparascopic.php" class="stretched-link">Laparascopic Surgery</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/5278/5278330.png" alt="Mortarboard Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/endoscopy.html" class="stretched-link">One Endoscopy Unit</a></h3>
+            <h3 class="mt-4"><a href="departments/endoscopy.php" class="stretched-link">One Endoscopy Unit</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
           <div class="features-item">
             <img src="https://www.svgrepo.com/show/326007/outpatient.svg" alt="Nut Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/outpatient.html" class="stretched-link">Out-Patient Care Complex</a></h3>
+            <h3 class="mt-4"><a href="departments/outpatient.php" class="stretched-link">Out-Patient Care Complex</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
@@ -120,14 +120,14 @@
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
           <div class="features-item">
             <img src="https://cdn1.iconfinder.com/data/icons/medicine-3-1/512/pulse-512.png" alt="Shuffle Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/cardio-pulmo.html" class="stretched-link">Cardio-Pulmo</a></h3>
+            <h3 class="mt-4"><a href="departments/cardio-pulmo.php" class="stretched-link">Cardio-Pulmo</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/3209/3209214.png" alt="Star Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/radiology.html" class="stretched-link">Radiology</a></h3>
+            <h3 class="mt-4"><a href="departments/radiology.php" class="stretched-link">Radiology</a></h3>
           </div>
         </div><!-- End Feature Item -->
         
@@ -135,35 +135,35 @@
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/3596/3596003.png" alt="Diamond Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/operating-room.html" class="stretched-link">Operating Room Complex</a></h3>
+            <h3 class="mt-4"><a href="departments/operating-room.php" class="stretched-link">Operating Room Complex</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/979/979008.png" alt="Camera Video Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/intensive-care.html" class="stretched-link">Intensive Care Unit</a></h3>
+            <h3 class="mt-4"><a href="departments/intensive-care.php" class="stretched-link">Intensive Care Unit</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/9733/9733672.png" alt="Command Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/emergency-room.html" class="stretched-link">Emergency Room</a></h3>
+            <h3 class="mt-4"><a href="departments/emergency-room.php" class="stretched-link">Emergency Room</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
           <div class="features-item">
             <img src="https://static.thenounproject.com/png/2225066-200.png" alt="Dribbble Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/dialysis-unit.html" class="stretched-link">Dialysis Unit </a></h3>
+            <h3 class="mt-4"><a href="departments/dialysis-unit.php" class="stretched-link">Dialysis Unit </a></h3>
           </div>
         </div><!-- End Feature Item -->
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
           <div class="features-item">
             <img src="https://cdn-icons-png.flaticon.com/512/163/163008.png" alt="Activity Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/rehabilitation.html" class="stretched-link">Rehabilitation Center</a></h3>
+            <h3 class="mt-4"><a href="departments/rehabilitation.php" class="stretched-link">Rehabilitation Center</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
@@ -171,7 +171,7 @@
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
           <div class="features-item">
             <img src="https://cdn-icons-png.freepik.com/512/2751/2751984.png" alt="Activity Icon" style="width: 50px; height: 50px;">
-            <h3 class="mt-4"><a href="departments/laboratory.html" class="stretched-link">Laboratory</a></h3>
+            <h3 class="mt-4"><a href="departments/laboratory.php" class="stretched-link">Laboratory</a></h3>
           </div>
         </div><!-- End Feature Item -->
 
@@ -194,7 +194,7 @@
     <div class="container footer-top mb-5">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">

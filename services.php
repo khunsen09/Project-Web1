@@ -38,31 +38,31 @@
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="index.html" class="active" style="font-size: 15px;">Home</a></li>
-            <li><a href="about.html" style="font-size: 15px;">About</a></li>
+            <li><a href="index.php" class="active" style="font-size: 15px;">Home</a></li>
+            <li><a href="about.php" style="font-size: 15px;">About</a></li>
             <li><a href="#services" style="font-size: 15px;">Services</a></li>
-            <li><a href="departments.html" style="font-size: 15px;">Departments</a></li>
+            <li><a href="departments.php" style="font-size: 15px;">Departments</a></li>
             <li><a href="#doctors" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.html" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.html" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
-            <li><a href="faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="faq.php" style="font-size: 15px;">FAQ'S</a></li>
+            <li><a href="contact.php" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
         <!-- Search Form -->
-        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+        <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
           <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
@@ -117,7 +117,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/1106/1106992.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Pharmacy</h4>
                     <p class="mb-4 text-secondary">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
-                    <a href="departments/pharmacy.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/pharmacy.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -132,7 +132,7 @@
                     <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/laparoscopy-1609480-1362222.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Laparoscopic Surgery</h4>
                     <p class="mb-4 text-secondary">We offer laparoscopic surgery, a minimally invasive option using small incisions for faster recovery and less scarring. Our expert team provides safe, effective care to help you return to daily life quickly.</p>
-                    <a href="departments/laparascopic.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/laparascopic.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -147,7 +147,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/5278/5278330.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">One Endoscopy Unit</h4>
                     <p class="mb-4 text-secondary">• Esophagogastroduodenoscopy <br> • ERP | Colonoscopy | Bronchoscopy</p>
-                    <a href="departments/endoscopy.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/endoscopy.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -172,7 +172,7 @@
                     <img src="https://www.svgrepo.com/show/326007/outpatient.svg" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Out-patient Care Complex (OPCC)</h4>
                     <p class="mb-4 text-secondary">The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such... The OPCC aims to deliver the utmost compassionate healthcare services. To provide convenience to patients, it has a scenic elevator in front of the hospital that provides direct access to the OPCC...</p>
-                    <a href="departments/outpatient.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/outpatient.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -188,7 +188,7 @@
                     <h4 class="mb-4">Diagnostic & Ancillary Services</h4>
                     <h6 class="text-start"><strong>Radiology</strong></h6>
                     <p class="mb-4 text-secondary text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography <br> • High Resolution CT Scan <br>• General/OB Ultrasound with 4D<br> • Liver Elastography </p>
-                    <a href="departments/radiology.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/radiology.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -196,7 +196,7 @@
                     <h6 class="text-start mt-4"><strong>Cardiology/Pulmonary</strong></h6>
                     <p class="mb-4 text-secondary text-start">• 2D Echocardiology 
                       <br> • Stress Test <br>• ABG Analysis <br> • CPAP/BIPAP                    </p>
-                    <a href="departments/cardio-pulmo.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/cardio-pulmo.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -219,7 +219,7 @@
                      • <strong> Clinical Chemistry </strong><br>Creatinine, HBA1c, SGPT, Uric Acid, etc...<br>  
                      • <strong> Serology </strong><br>Pregnancy Test, AFP, Dengue NS1 AG, etc...<br>  
                     </p>
-                    <a href="departments/laboratory.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/laboratory.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -249,7 +249,7 @@
                       <br> • Recovery Room 
                       <br> • Birthing Suite
                     </p>
-                    <a href="departments/operating-room.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/operating-room.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -268,7 +268,7 @@
                       <br>• Pediatric - ICU
                       <br> • Surgical - ICU 
                     </p>
-                    <a href="departments/intensive-care.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/intensive-care.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -288,7 +288,7 @@
                       <br>• 1 Isolation Bed 
                       <br>• 5 Medical/Surgical Beds
                     </p>
-                    <a href="departments/emergency-room.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/emergency-room.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -313,7 +313,7 @@
                     <img src="https://static.thenounproject.com/png/2225066-200.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Hemodialysis Unit</h4>
                     <p class="mb-4 text-secondary">Equiped with high-end machines to cater patients</p>
-                    <a href="departments/dialysis-unit.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/dialysis-unit.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -332,7 +332,7 @@
                       <br>• Gait Re-training
                       <br>• Pain Management 
                     </p>
-                    <a href="departments/rehabilitation.html" class="btn btn-outline-primary bsb-btn-circle">
+                    <a href="departments/rehabilitation.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
@@ -414,7 +414,7 @@
  <section id="clients" class="clients section">
   <!-- Section Title -->
   <div class="container section-title mb-4" data-aos="fade-up">
-   <a href="hmo.html"><h2 class="text-center">OUR HMO</h2></a>
+   <a href="hmo.php"><h2 class="text-center">OUR HMO</h2></a>
  </div><!-- End Section Title -->
 
 <div class="container" data-aos="zoom-in">
@@ -503,7 +503,7 @@
     <div class="container footer-top">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span class="sitename">Contact Us</span>
         </a>
         <div class="footer-contact pt-3">
