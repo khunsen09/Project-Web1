@@ -62,8 +62,8 @@
         </nav>
   
         <!-- Search Form -->
-        <form class="d-flex ms-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
@@ -340,7 +340,7 @@
                   </div>
                 </div>
               </div>
-              <!-- Additional cards with the same structure -->
+              
               <div class="col">
                 <div class="card h-100 border-dark">
                   <div class="card-body text-center p-4 p-xxl-5">
@@ -351,6 +351,8 @@
                   </div>
                 </div>
               </div>
+             
+     
             </div>
           </div>
         </div>
@@ -362,6 +364,17 @@
           <div class="col-12">
             <div class="container-fluid">
               <div class="row gy-3 gy-md-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                 <!-- Repeat similar structure for other cards -->
+                 <div class="col">
+                  <div class="card h-100 border-dark">
+                    <div class="card-body text-center p-4 p-xxl-5">
+                      <img src="https://cdn4.iconfinder.com/data/icons/coronavirus-188/100/covid-test-nasal_swab-coronavirus-laboratory-negative-512.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
+                      <h4 class="mb-4">Covid Lab</h4>
+                      <p class="mb-4 text-secondary">Our COVID-19 lab provides fast, accurate PCR and rapid antigen tests, ensuring reliable results to protect the health and safety of our patients and community.</p>
+                    </div>
+                  </div>
+                </div>
+                
                 <div class="col">
                   <div class="card h-100 border-dark">
                     <div class="card-body text-center p-4 p-xxl-5">
@@ -371,16 +384,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- Repeat similar structure for other cards -->
-                <div class="col">
-                  <div class="card h-100 border-dark">
-                    <div class="card-body text-center p-4 p-xxl-5">
-                      <img src="https://cdn2.iconfinder.com/data/icons/heath-1/512/Teeth_dental_teeth_tooth-512.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
-                      <h4 class="mb-4">Dental Service</h4>
-                      <p class="mb-4 text-secondary">Located at 3rd Floor Out-patient Care Complex.</p>
-                    </div>
-                  </div>
-                </div>
+               
                 <!-- Additional cards with the same structure -->
                 <div class="col">
                   <div class="card h-100 border-dark">
@@ -390,18 +394,98 @@
                       <p class="mb-4 text-secondary">Nutrition & Diabetic Services</p>
                     </div>
                   </div>
+
+                         
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+          
   </section>
   
   
 
   
-  
+  <!-- Clients Section -->
+ <section id="clients" class="clients section">
+  <!-- Section Title -->
+  <div class="container section-title mb-4" data-aos="fade-up">
+   <a href="hmo.html"><h2 class="text-center">OUR HMO</h2></a>
+ </div><!-- End Section Title -->
+
+<div class="container" data-aos="zoom-in">
+
+<div class="swiper init-swiper">
+ <script type="application/json" class="swiper-config">
+   {
+     "loop": true,
+     "speed": 600,
+     "autoplay": {
+       "delay": 5000
+     },
+     "slidesPerView": "auto",
+     "pagination": {
+       "el": ".swiper-pagination",
+       "type": "bullets",
+       "clickable": true
+     },
+     "breakpoints": {
+       "320": {
+         "slidesPerView": 2,
+         "spaceBetween": 40
+       },
+       "480": {
+         "slidesPerView": 3,
+         "spaceBetween": 60
+       },
+       "640": {
+         "slidesPerView": 4,
+         "spaceBetween": 80
+       },
+       "992": {
+         "slidesPerView": 5,
+         "spaceBetween": 120
+       },
+       "1200": {
+         "slidesPerView": 6,
+         "spaceBetween": 120
+       }
+     }
+   }
+ </script>
+
+ 
+ <div class="swiper-wrapper align-items-center">
+   <div class="swiper-slide"><img src="../Images/Mediafix Healthcare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Health Maintenance Inc - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Generali - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Valucare -  Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Eastwest Healthcare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Philcare -Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Insular Healthcare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Avega Healthcare Solutions - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Paciifc Cross Philippines - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Intellicare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Allianz PNB Life Insurance - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Asianlife and General Assurance Corporation -Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Carehealth Plus - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Maxicare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Cocolife Healthcare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/hppi -Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Wellcare Health Plans - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/Kaiser Permanente - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+   <div class="swiper-slide"><img src="../Images/IMS Wellth Care Inc - Accredited HMO.jpg" class="img-fluid" alt=""></div>
+ </div>
+</div>
+
+</div>
+
+</section><!-- /Clients Section -->
+
   
 
     

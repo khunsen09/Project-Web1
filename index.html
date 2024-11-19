@@ -75,6 +75,8 @@
       transform: scale(1.05);
     }
 
+    
+
 </style>
 
 <body class="index-page">
@@ -106,15 +108,11 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
-        <form class="d-flex ms-3" role="search" id="searchForm">
-          <input 
-            class="form-control me-2" 
-            type="search" 
-            placeholder="Search for Doctors" 
-            aria-label="Search" 
-            id="searchInput"
-          />
-          <button class="btn btn-outline-light" type="button" id="searchButton">Search</button>
+       
+        <!-- Search Form -->
+        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
       </div>
@@ -138,12 +136,25 @@
           The executive packages provide screening programs intended to improve the prevention of illness and identify potential disease complications.</p>
         <div class="d-flex">
           <a href="about.html" class="btn-get-started">Read More</a>
-          <a href="https://metroiloilohospital.com/vid/mm.mp4#t=02" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span class="text-danger">Watch Video</span></a>
+          <!-- <a href="https://metroiloilohospital.com/vid/mm.mp4#t=02" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span class="text-danger">Watch Video</span></a> -->
         </div>
       </div>
-      <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+
+      <!--Video-->
+            <div class="col-md-6 py-3 order-1 order-lg-2">
+                <!-- Right Column with Video and Poster Image -->
+                <video autoplay muted loop controls ="../Pictures/metro-hospital.jpg" class="img-fluid">
+                    <source src="https://metroiloilohospital.com/vid/mm.mp4#t=02" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+  
+      
+      
+      <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
         <img src="Images/metro-iloilo-page.jpg" class="img-fluid animated" alt="">
-      </div>
+      </div> -->
+
     </div>
   </div>
 
@@ -151,65 +162,7 @@
     
 
 
- <!-- Clients Section -->
- <section id="clients" class="clients section" style="background-color: #004085;">
-
-  <div class="container" data-aos="zoom-in">
-
-    <div class="swiper init-swiper">
-      <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 600,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": "auto",
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "breakpoints": {
-            "320": {
-              "slidesPerView": 2,
-              "spaceBetween": 40
-            },
-            "480": {
-              "slidesPerView": 3,
-              "spaceBetween": 60
-            },
-            "640": {
-              "slidesPerView": 4,
-              "spaceBetween": 80
-            },
-            "992": {
-              "slidesPerView": 5,
-              "spaceBetween": 120
-            },
-            "1200": {
-              "slidesPerView": 6,
-              "spaceBetween": 120
-            }
-          }
-        }
-      </script>
-      <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><img src="../Images/hppi -Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Philcare -Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Generali - Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Maxicare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Valucare -  Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Intellicare - Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Carehealth Plus - Accredited HMO.jpg" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="../Images/Kaiser Permanente - Accredited HMO.jpg" class="img-fluid" alt=""></div>
-      </div>
-    </div>
-
-  </div>
-
-</section><!-- /Clients Section -->
-  
+ 
 
     <!-- About Section -->
 <section id="about" class="about section">
@@ -592,45 +545,62 @@
   
 
     <!-- Doctors Section -->
-  <section id="doctors" class="doctors section">
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2 class="text-center mb-5">SEARCH DOCTORS FOR SCHEDULES & AVAILABILITY</h2>
-      <div class="input-group">
-        <input 
-          type="search" 
-          id="searchInput" 
-          class="form-control rounded" 
-          placeholder="Doctors" 
-          aria-label="Search" 
-          aria-describedby="search-addon" 
-        />
-        <!-- Search Button -->
-        <button 
-          type="button" 
-          class="btn btn-outline-primary" 
-          id="searchButton" 
-        >
-          Search
-        </button>
-      </div>
-    </div><!-- End Section Title -->
-  </section><!-- /Doctors Section -->
+<section id="doctors" class="doctors section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2 class="text-center mb-5">SEARCH DOCTORS FOR SCHEDULES & AVAILABILITY</h2>
+    <div class="input-group">
+      <input 
+        type="search" 
+        id="searchInput" 
+        class="form-control rounded" 
+        placeholder="Search Doctor Name" 
+        aria-label="Search" 
+        aria-describedby="search-addon" 
+      />
+      <!-- Search Button -->
+      <button 
+        type="button" 
+        class="btn btn-outline-primary" 
+        id="searchButton"
+      >
+        Search
+      </button>
+    </div>
+  </div><!-- End Section Title -->
+</section><!-- /Doctors Section -->
 
-  <script>
-    const searchInput = document.getElementById("searchInput");
-    const searchButton = document.getElementById("searchButton");
+<script>
+  // Get references to the input and button elements
+  const searchInput = document.getElementById("searchInput");
+  const searchButton = document.getElementById("searchButton");
 
-    searchButton.addEventListener("click", () => {
-      const query = searchInput.value.trim(); // Get the search input
+  // Add event listener for the search button click
+  searchButton.addEventListener("click", () => {
+    const query = searchInput.value.trim(); // Get the search query from input field
+
+    if (query) {
+      // Redirect to doctor.html with query parameter
+      window.location.href = `doctor.html?query=${encodeURIComponent(query)}`;
+    } else {
+      // Alert if the input field is empty
+      alert("PLEASE ENTER A DOCTOR NAME.");
+    }
+  });
+
+  // Optional: Allow user to press "Enter" to trigger search
+  searchInput.addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+      const query = searchInput.value.trim();
       if (query) {
-        // Redirect to results page with query as URL parameter
         window.location.href = `doctor.html?query=${encodeURIComponent(query)}`;
       } else {
         alert("PLEASE ENTER A DOCTOR NAME.");
       }
-    });
-  </script>
+    }
+  });
+</script>
+
 
   
 
@@ -991,10 +961,10 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>marketing@metroiloilohospital.com</p>
-                  <p>admin@metroiloilohospital.com</p>
-                  <p>hr@metroiloilohospital.com</p>
-                  <p>nso@metroiloilohospital.com</p>
+                  <a href="mailto:example@example.com">marketing@metroiloilohospital.com</a>
+                  <a href="mailto:example@example.com">admin@metroiloilohospital.com</a>
+                  <a href="mailto:example@example.com">hr@metroiloilohospital.com</a>
+                  <a href="mailto:example@example.com">nso@metroiloilohospital.com</a>
                 </div>
               </div><!-- End Info Item -->
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.543030320536!2d122.5809256!3d10.7625297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee48040ce2179%3A0xa4e800a96a8b99a6!2sMetro%20Iloilo%20Hospital%20and%20Medical%20Center%2C%20Inc.!5e0!3m2!1sen!2sph!4v1729491890031!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

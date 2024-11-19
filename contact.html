@@ -43,7 +43,7 @@
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="index.html" class="active" style="font-size: 15px;">Home</a></li>
+            <li><a href="index.html"  style="font-size: 15px;">Home</a></li>
             <li><a href="about.html" style="font-size: 15px;">About</a></li>
             <li><a href="services.html" style="font-size: 15px;">Services</a></li>
             <li><a href="departments.html" style="font-size: 15px;">Departments</a></li>
@@ -55,20 +55,15 @@
               </ul>
             </li>
             <li><a href="faq.html" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="contact.html" style="font-size: 15px;">Contact</a></li>
+            <li><a href="contact.html" class="active" style="font-size: 15px;">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
-        <form class="d-flex ms-3" role="search" id="searchForm">
-          <input 
-            class="form-control me-2" 
-            type="search" 
-            placeholder="Search for Doctors" 
-            aria-label="Search" 
-            id="searchInput"
-          />
-          <button class="btn btn-outline-light" type="button" id="searchButton">Search</button>
+        <!-- Search Form -->
+        <form class="d-flex ms-3" action="doctor.html" method="get" role="search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
       </div>
@@ -115,10 +110,10 @@
             <i class="bi bi-envelope flex-shrink-0"></i>
             <div>
               <h3>Email Us</h3>
-              <p>marketing@metroiloilohospital.com</p>
-              <p>admin@metroiloilohospital.com</p>
-              <p>hr@metroiloilohospital.com</p>
-              <p>nso@metroiloilohospital.com</p>
+              <a href="mailto:example@example.com">marketing@metroiloilohospital.com</a>
+              <a href="mailto:example@example.com">admin@metroiloilohospital.com</a>
+              <a href="mailto:example@example.com">hr@metroiloilohospital.com</a>
+              <a href="mailto:example@example.com">nso@metroiloilohospital.com</a>
             </div>
           </div><!-- End Info Item -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.543030320536!2d122.5809256!3d10.7625297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee48040ce2179%3A0xa4e800a96a8b99a6!2sMetro%20Iloilo%20Hospital%20and%20Medical%20Center%2C%20Inc.!5e0!3m2!1sen!2sph!4v1729491890031!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
