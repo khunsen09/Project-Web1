@@ -262,7 +262,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/1106/1106992.png" alt="Pharmacy Icon" width="56" height="56" class="text-primary mb-4" />
                 <h4 class="mb-4">Pharmacy</h4>
                 <p class="mb-4 text-secondary">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
-                <a href="../Project-Web1/services.php" class="fw-bold text-decoration-none link-primary">
+                <a href="../Project-Web1/pharmacy.php" class="fw-bold text-decoration-none link-primary">
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />

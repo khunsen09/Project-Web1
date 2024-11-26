@@ -76,7 +76,7 @@
  <div class="container section-title" data-aos="fade-up">
   <h2 class="text-center mt-5">Rehabilitation Center</h2>
   <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">9:00AM to 5:00PM Mon to Sat | Ground Floor Ancillary Building | 327-1527 loc. 8127</p>
-</div><!-- End Section Title -->
+</div>
 
 
 
@@ -91,30 +91,87 @@
     .gallery img:hover {
       transform: scale(1.05);
     }
+
+    
   </style>
 </head>
 <body>
 
-<div class="container my-5">
-  <div class="mt-5">
-    <div class="container">
-      <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Services Offered:</h3>
-        <div class="row">
-          <div class="col-sm">
-            <ul class="mb-5" style="font-size: 25px;">
-                <li>Electrotherapy</li>
-                <li>Manual Therapy</li>
-                <li>Gait Re-training</li>
-                <li>Pain Management
-                </li>
-            </ul>
-          </div>
+
+
+
+
+
+<div class="container my-3">
+  <div class="text-center mt-5">
+    <h3 class="fw-bold" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+      Services Offered
+    </h3>
+  </div>
+  
+  <div class="row justify-content-center mt-4">
+    <!-- Card for Electrotherapy -->
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Electrotherapy</h5>
+          <p class="card-text">A therapeutic treatment using electrical energy to treat pain and promote healing.</p>
         </div>
       </div>
+    </div>
+    
+    <!-- Card for Manual Therapy -->
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Manual Therapy</h5>
+          <p class="card-text">Hands-on techniques to treat musculoskeletal pain and improve movement.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card for Gait Re-training -->
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Gait Re-training</h5>
+          <p class="card-text">Improving walking patterns and posture for better mobility and comfort.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card for Pain Management -->
+    <div class="col-md-3 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Pain Management</h5>
+          <p class="card-text">A comprehensive approach to reducing and managing chronic pain.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="container my-2">
+<!-- Hero Section -->
+
+
+
+<div class=" text-center">
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Explore our detailed rates and service packages to find the right option for your healthcare needs. Our team is here to guide you every step of the way. Reach out today to understand how we can support your health journey.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Rates</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Packages</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- Pictures -->
+    <div class="container my-5">
   <div class="row gallery">
     <!-- Column 1 -->
     <div class="col-md-6">
@@ -125,8 +182,11 @@
       <img src="../Images/rehabilitation-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
   </div>
+</div>
 
-  <div class="row gallery my-2">
+  <!-- Pictures -->
+  <div class="container my-5">
+  <div class="row gallery">
     <!-- Column 1 -->
     <div class="col-md-6">
       <img src="../Images/rehabilitation-3.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
@@ -135,29 +195,27 @@
     <div class="col-md-6">
       <img src="../Images/rehabilitation-4.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
+    <!-- Column 3 -->
   </div>
-
 </div>
+
+
+
 
 
 
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
       </div>
     </div>
   </div>
 </div>
-
-<!-- Bootstrap 5 JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 
 <script>
   // JavaScript function to open the modal with the selected image
@@ -174,7 +232,13 @@
     modal.hide(); // Close the modal
   });
 </script>
-    
+
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+
+
     
     
 

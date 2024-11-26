@@ -72,12 +72,30 @@
 
   <main class="main">
 
+  
 
     <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
   <h2 class="text-center mt-5">Pharmacy</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 19px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">  Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life. will served as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high quality and patient centered pharmacy services through continuum pharmaceutical care.</p>
+  <p class="title-paragraph text-center mt-4" style="font-size: 19px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">The pharmacy is powered by a pneumatic system for automated delivery of medicines to corresponding stations.</p>
 </div><!-- End Section Title -->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2 class="display-4 fw-bold">Explore Our Rates & Services</h2>
+				<p class="lead">We offer a wide range of prescriptions, over-the-counter products, and expert health advice at competitive prices. Your health is our priority.</p>
+        <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 ">Rates</a>
+        <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 mx-2">Packages</a>
+			</div>
+			<div class="col-md-6 offset-md-1 my-5">
+				<p class="lead">Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life.</p>
+				<p class="lead">Will serve as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high-quality, and patient-centered pharmacy services through continuum pharmaceutical care.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 
@@ -94,10 +112,8 @@
   </style>
 </head>
 <body>
-
-  <!--Pictures-->
-<div class="container my-5">
-  <h2 class="text-center mb-5" style="font-size: 20px;">  The pharmacy is powered by a pnuematic system for automated delivery of medicines to corresponding stations.</h2>
+<!-- Pictures -->
+<div class="container">
   <div class="row gallery">
     <!-- Column 1 -->
     <div class="col-md-4">
@@ -111,11 +127,10 @@
     <div class="col-md-4">
       <img src="../Images/pharmacy-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
-    <!-- Column 4 -->
   </div>
 </div>
 
-
+<!-- Additional Images -->
 <div class="container my-5">
   <div class="row gallery">
     <!-- Column 1 -->
@@ -126,10 +141,10 @@
     <div class="col-md-6">
       <img src="../Images/pharmacy-8.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
-    <!-- Column 3 -->
   </div>
 </div>
 
+<!-- More Images -->
 <div class="container my-5">
   <div class="row gallery">
     <!-- Column 1 -->
@@ -144,25 +159,21 @@
     <div class="col-md-4">
       <img src="../Images/pharmacy-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
-    <!-- Column 4 -->
   </div>
 </div>
 
-
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
       </div>
     </div>
   </div>
 </div>
-
 
 <script>
   // JavaScript function to open the modal with the selected image
@@ -179,6 +190,7 @@
     modal.hide(); // Close the modal
   });
 </script>
+
 
   </main>
 

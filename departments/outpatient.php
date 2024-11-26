@@ -32,6 +32,18 @@
 
 <body class="service-details-page">
 
+<style>
+    .gallery img {
+      width: 100%;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+
   <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
     <div class="branding d-flex align-items-center">
       
@@ -87,41 +99,54 @@
   </div>
 
   
-    <div class="container">
-      <div class="row">
-          <!-- Gallery Images -->
-          <div class="col-md-4">
-              <img src="../Images/opcc-1.png" class="img-fluid rounded" alt="Gallery Image 1" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
-          </div>
-          <div class="col-md-4">
-              <img src="../Images/opcc-2.png" class="img-fluid rounded" alt="Gallery Image 2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
-          </div>
-          <div class="col-md-4">
-              <img src="../Images/opcc-3.png" class="img-fluid rounded" alt="Gallery Image 3" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
-          </div>
-          <!-- Add more columns for more images if needed -->
+    <!-- Pictures -->
+<div class="container my-5">
+  <h2 class="text-center mb-5" style="font-size: 20px;">  The pharmacy is powered by a pneumatic system for automated delivery of medicines to corresponding stations.</h2>
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/opcc-1.png" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/opcc-2.png" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/opcc-3.png" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
       </div>
     </div>
-    
-    <!-- Modal for Image Viewer -->
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-              <div class="modal-body">
-                  <img id="modalImage" src="" class="img-fluid rounded" alt="Modal Image">
-                  <button type="button" class="btn btn-secondary w-100 mt-3" data-bs-dismiss="modal" aria-label="Close">Close</button>
-              </div>
-          </div>
-      </div>
-    </div>
-    
-    <script>
-      function openModal(element) {
-          const modalImage = document.getElementById("modalImage");
-          modalImage.src = element.src;
-          modalImage.alt = element.alt;
-      }
-    </script>
+  </div>
+</div>
+
+<script>
+  // JavaScript function to open the modal with the selected image
+  function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+    myModal.show();
+  }
+
+  // Close button functionality
+  document.getElementById('closeModalButton').addEventListener('click', function() {
+    var myModalEl = document.getElementById('imageModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+    modal.hide(); // Close the modal
+  });
+</script>
     
          
 

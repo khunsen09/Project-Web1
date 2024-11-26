@@ -108,66 +108,56 @@
 <body>
 
   
-
-<div class="container mt-3">
-  <h2 class="text-center mb-5" style="font-size: 26px;">Delivers a superior quality of medical care to patients.</h2>
+ <!-- Pictures -->
+ <div class="container my-5">
+  <h2 class="text-center mb-5" style="font-size: 20px;">  The pharmacy is powered by a pneumatic system for automated delivery of medicines to corresponding stations.</h2>
   <div class="row gallery">
     <!-- Column 1 -->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <img src="../Images/emergency-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 2 -->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <img src="../Images/emergency-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
-
-    <!-- Column 4 -->
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/emergency-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
   </div>
 </div>
 
-<div class="container my-5">
+  <!-- Pictures -->
+  <div class="container my-5">
   <div class="row gallery">
     <!-- Column 1 -->
-    <div class="col-md-6">
-      <img src="../Images/emergency-3.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    <div class="col-md-4">
+      <img src="../Images/emergency-6.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
     <!-- Column 2 -->
-    <div class="col-md-6">
-      <img src="../Images/emergency-4.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    <div class="col-md-4">
+      <img src="../Images/emergency-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/emergency-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
   </div>
 </div>
 
-<div class="container my-5">
-  <div class="row gallery">
-    <!-- Column 1 -->
-    <div class="col-md-6">
-      <img src="../Images/emergency-5.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-6">
-      <img src="../Images/emergency-6.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-  </div>
-</div>
 
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
       </div>
     </div>
   </div>
 </div>
-
-<!-- Bootstrap 5 JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 
 <script>
   // JavaScript function to open the modal with the selected image
@@ -184,6 +174,13 @@
     modal.hide(); // Close the modal
   });
 </script>
+
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+
+
     
     
     

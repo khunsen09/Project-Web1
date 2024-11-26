@@ -122,74 +122,6 @@
 </head>
 <body>
 
-<div class="container mt-4">
-  <div class="row gallery">
-    <!-- Column 1 -->
-    <div class="col-md-3">
-      <img src="../Images/intensive-care-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-3 my-5">
-      <img src="../Images/intensive-care-3.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-
-    </div>
-    <!-- Column 3 -->
-    <div class="col-md-3 my-5">
-      <img src="../Images/intensive-care-4.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 4 -->
-    <div class="col-md-3">
-      <img src="../Images/intensive-care-2.jpg" alt="Image 4" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-  </div>
-</div>
-
-
-<h2 class="text-center my-5" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Neonatal ICU</h2>
-
-<div class="container mt-4">
-  <div class="row gallery ">
-
-    <div class="col-md-4 my-3">
-      <img src="../Images/intensive-care-5.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-4 mt-3">
-      <img src="../Images/intensive-care-6.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-
-    </div>
-    <!-- Column 3 -->
-    <div class="col-md-4 my-3">
-      <img src="../Images/intensive-care-7.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-
-    <!-- Column 1 -->
-    <div class="col-md-6">
-      <img src="../Images/neonatal-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 2 -->
-    <div class="col-md-6">
-      <img src="../Images/neonatal-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-    </div>
-    <!-- Column 3 -->
-
-
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -199,22 +131,88 @@
   
 
 
+  
+    
+    <!-- Pictures -->
+<div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-3">
+      <img src="../Images/intensive-care-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <div class="col-md-3">
+      <img src="../Images/intensive-care-4.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-3">
+      <img src="../Images/intensive-care-3.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-3">
+      <img src="../Images/intensive-care-2.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+  </div>
+</div>
+
+ <!-- Pictures -->
+ <div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/intensive-care-5.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <div class="col-md-4">
+      <img src="../Images/intensive-care-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/intensive-care-7.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+  </div>
+</div>
+
+<!-- Pictures -->
+<div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-6">
+      <img src="../Images/intensive-care-8.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <div class="col-md-6">
+      <img src="../Images/intensive-care-9.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+  </div>
+</div>
+
+
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Large view" class="img-fluid">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
       </div>
     </div>
   </div>
 </div>
 
-  
-    
+<script>
+  // JavaScript function to open the modal with the selected image
+  function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+    myModal.show();
+  }
+
+  // Close button functionality
+  document.getElementById('closeModalButton').addEventListener('click', function() {
+    var myModalEl = document.getElementById('imageModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+    modal.hide(); // Close the modal
+  });
+</script>
     
     
 

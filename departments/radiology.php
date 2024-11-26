@@ -96,147 +96,92 @@
   </head>
   <body>
   
-    <!--Pictures-->
-  <div class="container my-5">
-    <h2 class="text-start mb-5" style="font-size: 20px;">The best medical imaging provider in Iloilo City. State of the art diagnostic imaging modalities. Qualified and competent diagnostic consultants and personnel with continuous medical education and training or consultants and staff. Promotes a prompt diagnostic results Application of Hospital Information System To come up with residency training and research program To provide convenience and comfort by bringing diagnostic equipments to patient.</h2>
-    <div class="row gallery">
-      <!-- Column 1 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 3 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 4 -->
+    <!-- Pictures -->
+ <div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-1.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-2.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-3.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
   </div>
-  
-  
-  <div class="container my-5">
-    <div class="row gallery">
-      <!-- Column 1 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-4.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <div class="col-md-4">
-        <img src="../Images/radiology-6.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 3 -->
-    </div>
-  </div>
-  
-  <div class="container my-5">
-    <div class="row gallery">
-      <!-- Column 1 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-7.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-8.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 3 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-9.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 4 -->
-    </div>
-  </div>
+</div>
 
+  <!-- Pictures -->
   <div class="container my-5">
-    <div class="row gallery">
-      <!-- Column 1 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-10.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-11.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 3 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-12.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 4 -->
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-4.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-5.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-6.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
   </div>
+</div>
 
-  <div class="container my-5">
-    <div class="row gallery">
-      <!-- Column 1 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-13.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-14.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 3 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-15.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 4 -->
-    </div>
-  </div>
 
-  <div class="container my-5">
-    <div class="row gallery">
-      <!-- Column 1 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-16.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-17.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 3 -->
-      <div class="col-md-4">
-        <img src="../Images/radiology-18.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
-      </div>
-      <!-- Column 4 -->
+<!-- Pictures -->
+<div class="container my-5">
+  <div class="row gallery">
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-7.jpg" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-8.jpg" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
+    </div>
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <img src="../Images/radiology-9.jpg" alt="Image 3" class="img-thumbnail" onclick="openModal(this.src)">
     </div>
   </div>
-  
-  
-  <!-- Modal -->
-  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-body text-center">
-          <img id="modalImage" src="" alt="Large view" class="img-fluid">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" id="closeModalButton">Close</button>
-        </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
       </div>
     </div>
   </div>
-  
-  
-  <script>
-    // JavaScript function to open the modal with the selected image
-    function openModal(src) {
-      document.getElementById('modalImage').src = src;
-      var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
-      myModal.show();
-    }
-  
-    // Close button functionality
-    document.getElementById('closeModalButton').addEventListener('click', function() {
-      var myModalEl = document.getElementById('imageModal');
-      var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
-      modal.hide(); // Close the modal
-    });
-  </script>
+</div>
+
+<script>
+  // JavaScript function to open the modal with the selected image
+  function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+    myModal.show();
+  }
+
+  // Close button functionality
+  document.getElementById('closeModalButton').addEventListener('click', function() {
+    var myModalEl = document.getElementById('imageModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+    modal.hide(); // Close the modal
+  });
+</script>
   
 
   </main>
