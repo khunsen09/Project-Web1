@@ -864,7 +864,9 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+
+
+/* .hero {
   width: 100%;
   min-height: 50vh;
   position: relative;
@@ -960,7 +962,7 @@ section,
   100% {
     transform: translateY(-10px);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Featured Services Section
@@ -1391,10 +1393,10 @@ section,
     padding: 15px;
   }
 
-  .tabs .nav-link.active {
+  /* .tabs .nav-link.active {
     color: var(--accent-color);
     background: var(--accent-color);
-  }
+  } */
 }
 
 /*--------------------------------------------------------------

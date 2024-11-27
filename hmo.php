@@ -62,7 +62,7 @@
   
         <!-- Search Form -->
         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
@@ -302,67 +302,67 @@ CSS.g-6,
 
   <footer id="footer" class="footer light-background">
 
-    <div class="container footer-top mb-5">
-    <div class="row gy-4">
-      <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.php" class="logo d-flex align-items-center">
-          <span class="sitename">Contact Us</span>
-        </a>
-        <div class="footer-contact pt-3">
-          <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
-          <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
-          <p>Jaro, Iloilo City, Iloilo, Philippines</p>
-          <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
-          <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
-        </div>
-        
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4 >QUICK ACCESS</h4>
-        <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>MIHMCI</h4>
-        <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-4 col-md-3 footer-links">
-        <h4>Social Media</h4>
-        <ul>
-          <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
-        </ul>
-    
-        <div class="social-links d-flex mt-4">
-          <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
-          <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
-        </div>
-      </div>
-    
-    
-    
-    </div>
+<div class="container footer-top mb-5">
+<div class="row gy-4">
+  <div class="col-lg-4 col-md-6 footer-about">
+    <a href="index.php" class="logo d-flex align-items-center">
+      <span class="sitename">Contact Us</span>
+    </a>
+    <div class="footer-contact pt-3">
+      <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
+      <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
+      <p>Jaro, Iloilo City, Iloilo, Philippines</p>
+      <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
+      <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
     </div>
     
-    <div class="container-fluid copyright text-center">
-    <p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
-    <div class="credits">
-    
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4 >QUICK ACCESS</h4>
+    <ul>
+      <li><a  href="../Project-Web1/about.php">About</a></li>
+      <li><a  href="../Project-Web1/faq.php">FAQ</a></li>
+      <li><a href="../Project-Web1/contact.php">Contact</a></li>
+      <li><a href="../Project-Web1/services.php">Services</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4>MIHMCI</h4>
+    <ul>
+      <li><a  href="../Project-Web1/rates.php">Rates</a></li>
+      <li><a  href="../Project-Web1/packages.php">Packages</a></li>
+      <li><a  href="../Project-Web1/doctor.php">Doctor's</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-4 col-md-3 footer-links">
+    <h4>Social Media</h4>
+    <ul>
+      <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
+    </ul>
+
+    <div class="social-links d-flex mt-4">
+      <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
     </div>
-    </div>
-    
-    </footer>
+  </div>
+
+
+
+</div>
+</div>
+
+<div class="container-fluid copyright text-center">
+<p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
+<div class="credits">
+
+</div>
+</div>
+
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

@@ -108,8 +108,20 @@
       Services Offered
     </h3>
   </div>
+
+  <div class="text-center my-5">
+    <div class="col-lg-10 mx-auto">
+        <p class="lead mb-4">
+            Explore our detailed rates and service packages to find the right option for your healthcare needs. Our team is here to guide you every step of the way. Reach out today to understand how we can support your health journey.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="../rates.php" class="btn btn-primary btn-lg px-4 gap-3">Rates</a>
+            <a href="../packages.php" class="btn btn-outline-secondary btn-lg px-4">Packages</a>
+        </div>
+    </div>
+</div>
   
-  <div class="row justify-content-center mt-4">
+  <div class="row justify-content-center my-5">
     <!-- Card for Electrotherapy -->
     <div class="col-md-3 mb-4">
       <div class="card shadow-sm h-100">
@@ -156,15 +168,7 @@
 
 
 
-<div class=" text-center">
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Explore our detailed rates and service packages to find the right option for your healthcare needs. Our team is here to guide you every step of the way. Reach out today to understand how we can support your health journey.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Rates</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Packages</button>
-      </div>
-    </div>
-  </div>
+
 
 
 
@@ -279,19 +283,19 @@
       <div class="col-lg-2 col-md-3 footer-links">
         <h4 >QUICK ACCESS</h4>
         <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a  href="../about.php">About</a></li>
+          <li><a  href="../faq.php">FAQ</a></li>
+          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../services.php">Services</a></li>
         </ul>
       </div>
     
       <div class="col-lg-2 col-md-3 footer-links">
         <h4>MIHMCI</h4>
         <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
+          <li><a  href="../rates.php">Rates</a></li>
+          <li><a  href="../packages.php">Packages</a></li>
+          <li><a  href="../doctor.php">Doctor's</a></li>
         </ul>
       </div>
     

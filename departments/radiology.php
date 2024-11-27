@@ -33,25 +33,25 @@
 
 <body class="service-details-page">
 
-  <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
+<header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <a href="../index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.php" style="font-size: 15px;">Home</a></li>
+            <li><a href="../index.php"  style="font-size: 15px;">Home</a></li>
             <li><a href="../about.php" style="font-size: 15px;">About</a></li>
             <li><a href="../services.php" style="font-size: 15px;">Services</a></li>
             <li><a href="../departments.php" class="active" style="font-size: 15px;">Departments</a></li>
             <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="../rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="../packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
             <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
@@ -207,19 +207,19 @@
       <div class="col-lg-2 col-md-3 footer-links">
         <h4 >QUICK ACCESS</h4>
         <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a  href="../about.php">About</a></li>
+          <li><a  href="../faq.php">FAQ</a></li>
+          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../services.php">Services</a></li>
         </ul>
       </div>
     
       <div class="col-lg-2 col-md-3 footer-links">
         <h4>MIHMCI</h4>
         <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
+          <li><a  href="../rates.php">Rates</a></li>
+          <li><a  href="../packages.php">Packages</a></li>
+          <li><a  href="../doctor.php">Doctor's</a></li>
         </ul>
       </div>
     

@@ -42,13 +42,17 @@
     .gallery img:hover {
       transform: scale(1.05);
     }
+
+    body {
+    font-family: 'Open Sans', 'Roboto', 'Arial', sans-serif;
+}
   </style>
 
-  <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
+<header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <a href="../index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
@@ -61,8 +65,8 @@
             <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="../rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="../packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
             <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
@@ -70,17 +74,16 @@
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-   <!-- Search Form -->
-   <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-    <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
-    <button class="btn btn-outline-light" type="submit">Search</button>
-  </form>
+  
+         <!-- Search Form -->
+         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
   
       </div>
     </div>
   </header>
-
-
 
   <main class="main">
     <!-- Section Title -->
@@ -90,18 +93,32 @@
     </div><!-- End Section Title -->
     
 
-  
+    <section class="py-5">
+	<div class="container">
+		<div class="row gx-4 align-items-center">
+			<div class="col-md-6">
+				<div class="me-md-2 me-lg-5"><img class="img-fluid rounded-3" src="../Images/emergency-6.jpg"></div>
+			</div>
+			<div class="col-md-6">
+				<div class="ms-md-2 ms-lg-5 mt-5 mt-md-0">
+					<h4 class="fw-bold">Learn more about the services we offer. We invite you to visit us."</h4>
+					<p class="lead">We offer a wide range of healthcare services designed to meet your needs and provide the best possible care. Whether you're seeking routine medical attention, specialized treatments, or emergency care, our team is here to support you every step of the way.</p>
+					<p class="lead">We invite you to visit us and learn more about the comprehensive services we provide, all aimed at improving your health and well-being. Our dedicated staff is ready to assist you and ensure you receive the highest standard of care.</p><a class="btn btn-primary" href="../doctor.php">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
   <div class="text-center">
-    <div class="col-lg-8 mx-auto">
-      <p class="mb-4 text-lg-start" style="font-size: 18px;">The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center. The OPCC aims to deliver the utmost compassionate healthcare services located within a single establishment.</p>
+    <div class="col-lg-7 mx-auto">
+      <p class="mb-4 text-lg-start lead">The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center. The OPCC aims to deliver the utmost compassionate healthcare services located within a single establishment.</p>
   </div>
 
   
     <!-- Pictures -->
 <div class="container my-5">
-  <h2 class="text-center mb-5" style="font-size: 20px;">  The pharmacy is powered by a pneumatic system for automated delivery of medicines to corresponding stations.</h2>
   <div class="row gallery">
     <!-- Column 1 -->
     <div class="col-md-4">
@@ -154,50 +171,12 @@
     </div><!-- End Page Title -->
     
     <div class="px-4 my-5 text-center">
-      <div class="col-lg-8 mx-auto">
-        <p class="mb-4 text-lg-start" style="font-size: 18px;">Parking for vehicles is not a problem, because of the numerous parking spaces in front and back of the Hospital. To provide convenience to patients, it has a scenic elevator in front of the hospital that provides direct access to the 3rd-floor clinics/offices of the Specialty Centers. Electronically registered patients are taken cared by a sophisticated Hospital Information System which logs in paperless data and examination results. Since it is adjacent to the laboratory, diagnostic tests can be conveniently taken and the results could be obtained in a jiffy.</p>
-        <p class=" mb-5 text-lg-start" style="font-size: 18px;"> The OPCC has a highly trained, motivated and friendly staff ready to serve and to provide seamless service to patients and folks. While waiting, they can view movies from wide screen TV or they use the free wifi internet services to access the web from their portable handheld devices.</div>
-        <h4 class="text-weight-bold mb-5" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Know more of our services offered. Come and visit us.</h4>
+      <div class="col-lg-7 mx-auto">
+        <p class="mb-4 text-lg-start lead" >Parking for vehicles is not a problem, because of the numerous parking spaces in front and back of the Hospital. To provide convenience to patients, it has a scenic elevator in front of the hospital that provides direct access to the 3rd-floor clinics/offices of the Specialty Centers. Electronically registered patients are taken cared by a sophisticated Hospital Information System which logs in paperless data and examination results. Since it is adjacent to the laboratory, diagnostic tests can be conveniently taken and the results could be obtained in a jiffy.</p>
+        <p class=" mb-5 text-lg-start lead"> The OPCC has a highly trained, motivated and friendly staff ready to serve and to provide seamless service to patients and folks. While waiting, they can view movies from wide screen TV or they use the free wifi internet services to access the web from their portable handheld devices.</div>
     </div>
    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <ul class="mb-5">
-              <a href="#"><li>Obstetrics & Gynecology</li></a>
-              <a href="#"><li>Dental</li></a>
-              <a href="#"><li>Opthalmology</li></a>
-              <a href="#"><li>ENT - Head & Neck Surgery</li></a>
-              <a href="#"><li>Psychiatry</li></a>
-              <a href="#"><li>General Medicine</li></a>
-              <a href="#"><li>Gastroenterology</li></a>
-              <a href="#"><li>Nephrology</li></a>
-          </ul>
-        </div>
-        <div class="col-sm mb-5">
-          <ul class="">
-            <a href="#"><li>Diabetology</li></a>
-            <a href="#"><li>Geriratrics</li></a>
-            <a href="#"><li>Infectious</li></a>
-            <a href="#"><li>Pulmonology</li></a>
-            <a href="#"><li>Rheumatology Center</li></a>
-            <a href="#"><li>Allergology & Immunology</li></a>
-            <a href="#"><li>Family Medicine</li></a>
-          </ul>
-        </div>
-        <div class="col-sm">
-          <ul class="">
-            <a href="#"><li>Urology</li></a>
-            <a href="#"><li>Orthopedic</li></a>
-            <a href="#"><li>General Surgery</li></a>
-            <a href="#"><li>Laparascopic Surgery</li></a>
-            <a href="#"><li>Pediatrics Surgery</li></a>
-            <a href="#"><li>Thoravascular Surgery</li></a>
-            <a href="#"><li>Pediatrics</li></a>
-          </ul>
-        </div>
-      </div>
-    </div>
+   
     
   
 
@@ -205,67 +184,67 @@
 
   <footer id="footer" class="footer light-background">
 
-    <div class="container footer-top mb-5">
-    <div class="row gy-4">
-      <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.php" class="logo d-flex align-items-center">
-          <span class="sitename">Contact Us</span>
-        </a>
-        <div class="footer-contact pt-3">
-          <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
-          <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
-          <p>Jaro, Iloilo City, Iloilo, Philippines</p>
-          <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
-          <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
-        </div>
-        
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4 >QUICK ACCESS</h4>
-        <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>MIHMCI</h4>
-        <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-4 col-md-3 footer-links">
-        <h4>Social Media</h4>
-        <ul>
-          <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
-        </ul>
-    
-        <div class="social-links d-flex mt-4">
-          <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
-          <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
-        </div>
-      </div>
-    
-    
-    
-    </div>
+<div class="container footer-top mb-5">
+<div class="row gy-4">
+  <div class="col-lg-4 col-md-6 footer-about">
+    <a href="index.php" class="logo d-flex align-items-center">
+      <span class="sitename">Contact Us</span>
+    </a>
+    <div class="footer-contact pt-3">
+      <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
+      <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
+      <p>Jaro, Iloilo City, Iloilo, Philippines</p>
+      <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
+      <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
     </div>
     
-    <div class="container-fluid copyright text-center">
-    <p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
-    <div class="credits">
-    
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4 >QUICK ACCESS</h4>
+    <ul>
+      <li><a  href="../about.php">About</a></li>
+      <li><a  href="../faq.php">FAQ</a></li>
+      <li><a href="../contact.php">Contact</a></li>
+      <li><a href="../services.php">Services</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4>MIHMCI</h4>
+    <ul>
+      <li><a  href="../rates.php">Rates</a></li>
+      <li><a  href="../packages.php">Packages</a></li>
+      <li><a  href="../doctor.php">Doctor's</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-4 col-md-3 footer-links">
+    <h4>Social Media</h4>
+    <ul>
+      <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
+    </ul>
+
+    <div class="social-links d-flex mt-4">
+      <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
     </div>
-    </div>
-    
-    </footer>
+  </div>
+
+
+
+</div>
+</div>
+
+<div class="container-fluid copyright text-center">
+<p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
+<div class="credits">
+
+</div>
+</div>
+
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

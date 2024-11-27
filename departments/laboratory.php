@@ -33,25 +33,25 @@
 
 <body class="service-details-page">
 
-  <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
+<header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <a href="../index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.php" style="font-size: 15px;">Home</a></li>
+            <li><a href="../index.php"  style="font-size: 15px;">Home</a></li>
             <li><a href="../about.php" style="font-size: 15px;">About</a></li>
             <li><a href="../services.php" style="font-size: 15px;">Services</a></li>
             <li><a href="../departments.php" class="active" style="font-size: 15px;">Departments</a></li>
             <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="../rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="../packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
             <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
@@ -87,20 +87,22 @@
 
 
 
-   
-
-      <div class="px-4 my-5 text-center">
-        <div class="col-lg-7 mx-auto">
-          <p class="lead mb-5" style="font-size: 26px;">Automated Laboratory equipment/machines and support services for Clinical Laboratory, with special tests e.g. Flow Cytometry Urine Analysis, Anatomic Pathology Services with Automated Tissue Processing and Frozen Section.
-
-          </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Laboratory Exams</button>
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Packages</button>
-          </div>
-        </div>
-      </div>
-
+     <section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2 class="display-4 fw-bold">Explore Our Rates & Services</h2>
+				<p class="lead">We offer a wide range of prescriptions, over-the-counter products, and expert health advice at competitive prices. Your health is our priority.</p>
+        <a href="../rates.php" class="btn btn-primary rounded-pill py-md-3 px-md-5 ">Rates</a>
+        <a href="../packages.php" class="btn btn-primary rounded-pill py-md-3 px-md-5 mx-2">Packages</a>
+			</div>
+			<div class="col-md-6 offset-md-1 my-3">
+				<p class="lead">Our Laboratory Services are at the forefront of diagnostic testing, providing accurate and timely results to support effective patient care. Equipped with advanced technology and operated by skilled medical technologists, our laboratory performs a wide range of tests, including clinical chemistry, hematology, microbiology, immunology, and more. </p>
+				<p class="lead"> With a focus on precision, reliability, and efficiency, we play a vital role in diagnosing and monitoring medical conditions. Whether for routine screenings or specialized testing, our laboratory is committed to delivering high-quality services that empower healthcare providers and enhance patient outcomes.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
           
    
@@ -291,19 +293,19 @@
       <div class="col-lg-2 col-md-3 footer-links">
         <h4 >QUICK ACCESS</h4>
         <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a  href="../about.php">About</a></li>
+          <li><a  href="../faq.php">FAQ</a></li>
+          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../services.php">Services</a></li>
         </ul>
       </div>
     
       <div class="col-lg-2 col-md-3 footer-links">
         <h4>MIHMCI</h4>
         <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
+          <li><a  href="../rates.php">Rates</a></li>
+          <li><a  href="../packages.php">Packages</a></li>
+          <li><a  href="../doctor.php">Doctor's</a></li>
         </ul>
       </div>
     

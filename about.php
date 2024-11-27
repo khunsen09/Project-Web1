@@ -64,7 +64,7 @@
   
         <!-- Search Form -->
         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
@@ -112,14 +112,14 @@
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2 class="text-center">About Us</h2>
-    <p class="title-paragraph text-center mb-4">A 110 bed modern hospital in Metropolis road, Tagbak, Jaro, Iloilo City.</p>
+    <p class="title-paragraph text-center mb-2" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">A 110 bed modern hospital in Metropolis road, Tagbak, Jaro, Iloilo City.</p>
   </div><!-- End Section Title -->
 
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 style="background-color: rgb(27, 64, 128);" class="text-white">A. THE BEGINNINGS</h2>
-        <p style="font-size: 20px;">Sometime in 1997, Dr. Angelo “Anji” and Dr. Ma. Mercedita “Lana” Alcala opened the idea of building a hospital for the Ilonggos to Dr. Evelyn “Bukay” Lozada, Dr. Roberto “Bob” Lozada and later on to Dr. Danilo “Dan” Encarnacion. Except for Dr. Bob the four were very close friends being classmates in West Visayas State College of Medicine. Drs. Anji & Lana wanted to share their experience, having been involved in the building of several hospitals in Metro Manila.</p>
+        <h2 style="background-color: rgb(27, 64, 128);" class="text-white mb-4">A. THE BEGINNINGS</h2>
+        <p class="lead mb-4">Sometime in 1997, Dr. Angelo “Anji” and Dr. Ma. Mercedita “Lana” Alcala opened the idea of building a hospital for the Ilonggos to Dr. Evelyn “Bukay” Lozada, Dr. Roberto “Bob” Lozada and later on to Dr. Danilo “Dan” Encarnacion. Except for Dr. Bob the four were very close friends being classmates in West Visayas State College of Medicine. Drs. Anji & Lana wanted to share their experience, having been involved in the building of several hospitals in Metro Manila.</p>
       </div>
     </div>
   </div>
@@ -133,7 +133,7 @@
       </div>
       <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
         <h3>Metro Iloilo Hospital & Medical Center, Inc.</h3>
-        <p style="font-size: 20px;">
+        <p class="lead">
           The idea did not materialize until 14 years later when idea to build a hospital owned by doctors from Iloilo was revived. The first step taken was the formation of a core group of physicians that would be involved in the initial planning. The members were <b> Dr. Angelo Alcala, Dr. Mercedita Lana, Dr. Danilo Encarnacion, Dr. Evelyn Lozada, Dr. Roberto Lozada, Dr. Roland Uy, Dr. Anton Juan Loa, Dr. Myrna Ong and Dr. Chester Jardiolin. Eventually, other members were recruited to complete the 15 members of the Board and they were – Dr. Danilo Valencia, Dr. Jesse Uy, Dr. Erwin Dulos, Dr. Segundo Anayan, Dr. Hannah Jabasa and Dr. Perpetua Socorro Barrera.</b>
         </p>
         
@@ -142,6 +142,7 @@
     </div>
   
   </div>
+  
   
   </section><!-- /About Section -->
 
@@ -159,7 +160,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>PHOTOS</h2>
-      <p style="font-size: 20px;">It was decided that the “founders” or major stockholders that would be recruited will be limited to 75 physicians that were actively practicing. Even the common shares were first offered to practicing physicians. They were expected to refer patients to the hospital in the future.</p>
+      <p style="font-size: 18px;">It was decided that the “founders” or major stockholders that would be recruited will be limited to 75 physicians that were actively practicing. </p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -214,7 +215,7 @@
 
   </section><!-- /Gallery Section -->
   <div class="container py-4">
-    <div class="row" style="font-size: 20px;">
+    <div class="row lead">
       <div class="col-md-12">
         <p >The first general assembly on April 9, 2013 was held at Alicia’s in Pavia. Here, the roadmap to building the hospital was clearly explained by Dr. Encarnacion who was leading the group. The guidance of Drs. Anjie and Lana Alcala who talked about their personal experiences visibly reassured the members that although it was a daunting undertaking it was a doable task. The initial steps of attaining the dream was put into motion with the election of the interim members of the board. The group acquired a legal entity when its by-laws was approved by Securities and Exchange Commission on June 25, 2013. From then on the group was known as Metro Iloilo Hospital and Medical Center Inc. The first Board meeting was conducted on July 9, 2013, at Luna 101, Sarabia manor Hotel. It was during this meeting that the officers were elected namely:</p>
         <p><b>Dr. Roland L. Uy – Chairman, Dr. Antonio S. Juan Loa- Vice Chairman, Dr. Danilo A. Encarnacion – President, Dr. Chester H. Jardiolin - Executive Vice President, Dr. Roberto S. Lozada - Corporate Secretary, Dr. Myrna Ong – Asst Corporate Secretary, Dr. Evelyn Socorro S. Lozada- Treasurer and Ast. Treasurer - Dr. Perpetua Socorro Barrera.</p></b>
@@ -223,7 +224,7 @@
   </div>
 
 
-  <div class="container" style="font-size: 20px;">
+  <div class="container lead" >
     <div class="row">
       <div class="col">
         <p> Board members were: Dr. Angelo Alcala, Dr. Mercedita Alcala, Dr. Danilo Valencia, Dr. Jesse Uy, Dr. Erwin Dulos, Dr. Segundo Anayan and Dr. Hannah Jabasa. Later on the official seal designed by Dr. Jesse Uy was adopted by the corporation.</p>
@@ -236,7 +237,7 @@
     <div class="row">
       <div class="col">
         <h2 style="background-color: rgb(27, 64, 128);" class="text-white"> B. THE ACQUISITION OF LOTS</h2>
-        <p style="font-size: 18px;"> The hospital’s location was crucial. It was decided that it would be somewhere in Jaro away from the cluster of hospitals in the city. After months of searching, two adjacent lots totaling 4,790 sq. m at the Metropolis road at Tagbak, Jaro was acquired on August 2014. It was an ideal location because it was very accessible being a few meters away from the national road going to Leganes. Additional adjacent lots 2,092 sq. m at the side and 6,090 sq. m at the back were subsequently acquired on August 2015 and January 2016 respectively bringing the total area to 1.2 hectares.</p>
+        <p class="lead"> The hospital’s location was crucial. It was decided that it would be somewhere in Jaro away from the cluster of hospitals in the city. After months of searching, two adjacent lots totaling 4,790 sq. m at the Metropolis road at Tagbak, Jaro was acquired on August 2014. It was an ideal location because it was very accessible being a few meters away from the national road going to Leganes. Additional adjacent lots 2,092 sq. m at the side and 6,090 sq. m at the back were subsequently acquired on August 2015 and January 2016 respectively bringing the total area to 1.2 hectares.</p>
       </div>
     </div>
   </div>
@@ -245,7 +246,7 @@
     <div class="row">
       <div class="col-md-12">
         <h2 style="background-color: rgb(27, 64, 128);" class="text-white">C. THE SELECTION OF ARCHITECT & PROJECT MANAGER</h2>
-        <p style="font-size: 20px;"> The hospital’s location was crucial. It was decided that it would be somewhere in Jaro away from the cluster of hospitals in the city. After months of searching, two adjacent lots totaling 4,790 sq. m at the Metropolis road at Tagbak, Jaro was acquired on August 2014. It was an ideal location because it was very accessible being a few meters away from the national road going to Leganes. Additional adjacent lots 2,092 sq. m at the side and 6,090 sq. m at the back were subsequently acquired on August 2015 and January 2016 respectively bringing the total area to 1.2 hectares.</p>
+        <p class="lead"> The hospital’s location was crucial. It was decided that it would be somewhere in Jaro away from the cluster of hospitals in the city. After months of searching, two adjacent lots totaling 4,790 sq. m at the Metropolis road at Tagbak, Jaro was acquired on August 2014. It was an ideal location because it was very accessible being a few meters away from the national road going to Leganes. Additional adjacent lots 2,092 sq. m at the side and 6,090 sq. m at the back were subsequently acquired on August 2015 and January 2016 respectively bringing the total area to 1.2 hectares.</p>
       </div>
     </div>
   </div>
@@ -257,7 +258,7 @@
 <div class="row">
 <div class="col">
   <h2 style="background-color: rgb(27, 64, 128);" class="text-white"> D. PREPERATIONS FOR THE CONSTRUCTION</h2>
-  <p style="font-size: 20px;">  The hospital’s location was crucial. It was decided that it would be somewhere in Jaro away from the cluster of hospitals in the city. After months of searching, two adjacent lots totaling 4,790 sq. m at the Metropolis road at Tagbak, Jaro was acquired on August 2014. It was an ideal location because it was very accessible being a few meters away from the national road going to Leganes. Additional adjacent lots 2,092 sq. m at the side and 6,090 sq. m at the back were subsequently acquired on August 2015 and January 2016 respectively bringing the total area to 1.2 hectares.</p>
+  <p class="lead">  The hospital’s location was crucial. It was decided that it would be somewhere in Jaro away from the cluster of hospitals in the city. After months of searching, two adjacent lots totaling 4,790 sq. m at the Metropolis road at Tagbak, Jaro was acquired on August 2014. It was an ideal location because it was very accessible being a few meters away from the national road going to Leganes. Additional adjacent lots 2,092 sq. m at the side and 6,090 sq. m at the back were subsequently acquired on August 2015 and January 2016 respectively bringing the total area to 1.2 hectares.</p>
 </div>
 </div>
 </div>
@@ -268,27 +269,10 @@
   <!-- <h2 class="text-center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Metro Iloilo Hospital & Medical Center, Inc.</h2> -->
   <div class="row">
     <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="200">
-      <p style="font-size: 18px;">
+      <p class="lead">
         Sometime in 1997, Dr. Angelo “Anji” and Dr. Ma. Mercedita “Lana” Alcala opened the idea of building a hospital for the Ilonggos to Dr. Evelyn “Bukay” Lozada, Dr. Roberto “Bob” Lozada and later on to Dr. Danilo “Dan” Encarnacion. Except for Dr. Bob the four were very close friends being classmates in West Visayas State College of Medicine. Drs. Anji & Lana wanted to share their experience, having been involved in the building of several hospitals in Metro Manila.
       </p>
-      <div class="container my-5">
-        <div class="row gallery">
-          <!-- Column 1 -->
-          
-        <div class="col-md-12">
-  <img 
-    src="Images/mission-vision-2024.jpg" 
-    alt="Mission and Vision 2024" 
-    class="img-thumbnail img-fluid" 
-    onclick="openModal(this.src)"
-    style="max-width: 100%; height: auto;">
-</div>
 
-
-        </div>
-
-        
-      </div>
   
       <!--close button-->
       <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
@@ -320,7 +304,7 @@
 <div class="container py-4">
 <div class="row">
 <div class="col-md-12">
-  <p style="font-size: 20px;">The first general assembly on April 9, 2013 was held at Alicia’s in Pavia. Here, the roadmap to building the hospital was clearly explained by Dr. Encarnacion who was leading the group. The guidance of Drs. Anjie and Lana Alcala who talked about their personal experiences visibly reassured the members that although it was a daunting undertaking it was a doable task. The initial steps of attaining the dream was put into motion with the election of the interim members of the board. The group acquired a legal entity when its by-laws was approved by Securities and Exchange Commission on June 25, 2013. From then on the group was known as Metro Iloilo Hospital and Medical Center Inc. The first Board meeting was conducted on July 9, 2013, at Luna 101, Sarabia manor Hotel. It was during this meeting that the officers were elected namely:</p>
+  <p class="lead">The first general assembly on April 9, 2013 was held at Alicia’s in Pavia. Here, the roadmap to building the hospital was clearly explained by Dr. Encarnacion who was leading the group. The guidance of Drs. Anjie and Lana Alcala who talked about their personal experiences visibly reassured the members that although it was a daunting undertaking it was a doable task. The initial steps of attaining the dream was put into motion with the election of the interim members of the board. The group acquired a legal entity when its by-laws was approved by Securities and Exchange Commission on June 25, 2013. From then on the group was known as Metro Iloilo Hospital and Medical Center Inc. The first Board meeting was conducted on July 9, 2013, at Luna 101, Sarabia manor Hotel. It was during this meeting that the officers were elected namely:</p>
 </div>
 </div>
 </div>
@@ -377,7 +361,7 @@
     
   
   </div>
-  <p style="font-size: 20px;"> The project manager presented a list of several building contractors. In a clear matrix form, they were rated according to the parameters of the Philippine Contractor Accreditation Board (PCAB). The Board decided to award the major structural contract to JITS Construction Corporation on December 2015. The first concrete pouring was done on March 3, 2016 attended by members of the Board. From then on the construction of the main building accelerated. On May 2, 2016 a joint meeting with the architect, main structural contractor and the Board was held to assess the progress of works which was found to be satisfactory and within the set time frame.</p>
+  <p class="lead"> The project manager presented a list of several building contractors. In a clear matrix form, they were rated according to the parameters of the Philippine Contractor Accreditation Board (PCAB). The Board decided to award the major structural contract to JITS Construction Corporation on December 2015. The first concrete pouring was done on March 3, 2016 attended by members of the Board. From then on the construction of the main building accelerated. On May 2, 2016 a joint meeting with the architect, main structural contractor and the Board was held to assess the progress of works which was found to be satisfactory and within the set time frame.</p>
 </div>
 </div>
 </div>
@@ -389,7 +373,7 @@
 <div class="container">
 <div class="row">
 <div class="col">
-  <p style="font-size: 20px;"> A loan agreement was obtained from Development Bank of the Philippines to partly fund the building and the medical equipment . This was formalized through a contract signing on August 8, 2016.</p>
+  <p class="lead"> A loan agreement was obtained from Development Bank of the Philippines to partly fund the building and the medical equipment . This was formalized through a contract signing on August 8, 2016.</p>
 </div>
 </div>
 </div>
@@ -397,10 +381,10 @@
 
 
 <div class="container py-5">
-<div class="row">
-<div class="col">
+  <div class="row">
+    <div class="col">
   <h2 style="background-color: rgb(27, 64, 128);" class="text-white"> F. PREPARATION FOR RUNNING THE HOSPITAL</h2>
-  <p style="font-size: 20px;"> A. Founders Enroll in Masteral Class The hospital is partly a business enterprise. To empower the members, they enrolled in a 2 year post graduate course – Masters in Hospital Management (MHM) acredited by CHED. This was offered by Health Care Executives headed by Dr. Jose Pepvbito Amores at St. Joseph School based in Quezon City. Special arrangement was made wherein various instructors came twice a month in Iloilo City to conduct classes which officially started on June 28, 2015 at SV More Building. Finally, all the 28 enrollees successfully completed the course.</p>
+  <p class="lead"> A. Founders Enroll in Masteral Class The hospital is partly a business enterprise. To empower the members, they enrolled in a 2 year post graduate course – Masters in Hospital Management (MHM) acredited by CHED. This was offered by Health Care Executives headed by Dr. Jose Pepvbito Amores at St. Joseph School based in Quezon City. Special arrangement was made wherein various instructors came twice a month in Iloilo City to conduct classes which officially started on June 28, 2015 at SV More Building. Finally, all the 28 enrollees successfully completed the course.</p>
   <div class="container py-5">
     <div class="row">
     <div class="col">
@@ -410,7 +394,7 @@
         <!-- <h2 class="text-center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Metro Iloilo Hospital & Medical Center, Inc.</h2> -->
         <div class="row">
           <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="200">
-            <p style="font-size: 18px;">
+            <p class="lead">
               Sometime in 1997, Dr. Angelo “Anji” and Dr. Ma. Mercedita “Lana” Alcala opened the idea of building a hospital for the Ilonggos to Dr. Evelyn “Bukay” Lozada, Dr. Roberto “Bob” Lozada and later on to Dr. Danilo “Dan” Encarnacion. Except for Dr. Bob the four were very close friends being classmates in West Visayas State College of Medicine. Drs. Anji & Lana wanted to share their experience, having been involved in the building of several hospitals in Metro Manila.
             </p>
             <div class="container my-5">
@@ -451,13 +435,13 @@
     
         
       
+           </div>
+         </div>
       </div>
-      <p style="font-size: 20px;"> The project manager presented a list of several building contractors. In a clear matrix form, they were rated according to the parameters of the Philippine Contractor Accreditation Board (PCAB). The Board decided to award the major structural contract to JITS Construction Corporation on December 2015. The first concrete pouring was done on March 3, 2016 attended by members of the Board. From then on the construction of the main building accelerated. On May 2, 2016 a joint meeting with the architect, main structural contractor and the Board was held to assess the progress of works which was found to be satisfactory and within the set time frame.</p>
     </div>
-    </div>
-    </div>
-  <p style="font-size: 20px;"> B. Strategic Planning The founders embarked on a workshop at Hotel del Rio on 5/17/16 and 7/5/16 to draft the Mission and Vision, Core values and other guiding principles unique to the hospital.</p>
-  <p style="font-size: 20px;"> C. Creation of Clinical Departments On June 2017, the board created the clinical departments, appointed the chairs and the medical director. The therapeutics and pharmacy committees were likewise created to prepare the hospital formulary. Numerous meetings were held in the temporary office at the St. Elizabeth building to prepare the guidelines of each department.</p>
+    <p class="lead">A. The project manager presented a list of several building contractors. In a clear matrix form, they were rated according to the parameters of the Philippine Contractor Accreditation Board (PCAB). The Board decided to award the major structural contract to JITS Construction Corporation on December 2015. The first concrete pouring was done on March 3, 2016 attended by members of the Board. From then on the construction of the main building accelerated. On May 2, 2016 a joint meeting with the architect, main structural contractor and the Board was held to assess the progress of works which was found to be satisfactory and within the set time frame.</p>
+  <p class="lead"> B. Strategic Planning The founders embarked on a workshop at Hotel del Rio on 5/17/16 and 7/5/16 to draft the Mission and Vision, Core values and other guiding principles unique to the hospital.</p>
+  <p class="lead"> C. Creation of Clinical Departments On June 2017, the board created the clinical departments, appointed the chairs and the medical director. The therapeutics and pharmacy committees were likewise created to prepare the hospital formulary. Numerous meetings were held in the temporary office at the St. Elizabeth building to prepare the guidelines of each department.</p>
 </div>
 </div>
 </div>
@@ -470,9 +454,9 @@
 <div class="row">
 <div class="col">
   <h2 style="background-color: rgb(27, 64, 128);" class="text-white"> G. THE ROAD TO COMPLETION</h2>
-  <p style="font-size: 20px;"> A. On December 10 2017, a general assembly and Christmas party was held for the first time in the newly completed 3rd floor which would soon house the out patient clinics and laboratory. It was poignant, emotional and happy occasion participated by the founders and the growing staff of employees. The official address of the corporation was changed to MIHMCI Hospital, Metropolis Road, Tagbak Jaro.</p>
-  <p style="font-size: 20px;"> B. Strategic Planning The founders embarked on a workshop at Hotel del Rio on 5/17/16 and 7/5/16 to draft the Mission and Vision, Core values and other guiding principles unique to the hospital.</p>
-  <p style="font-size: 20px;"> C. Creation of Clinical Departments On June 2017, the board created the clinical departments, appointed the chairs and the medical director. The therapeutics and pharmacy committees were likewise created to prepare the hospital formulary. Numerous meetings were held in the temporary office at the St. Elizabeth building to prepare the guidelines of each department.</p>
+  <p class="lead"> A. On December 10 2017, a general assembly and Christmas party was held for the first time in the newly completed 3rd floor which would soon house the out patient clinics and laboratory. It was poignant, emotional and happy occasion participated by the founders and the growing staff of employees. The official address of the corporation was changed to MIHMCI Hospital, Metropolis Road, Tagbak Jaro.</p>
+  <p class="lead"> B. Strategic Planning The founders embarked on a workshop at Hotel del Rio on 5/17/16 and 7/5/16 to draft the Mission and Vision, Core values and other guiding principles unique to the hospital.</p>
+  <p class="lead"> C. Creation of Clinical Departments On June 2017, the board created the clinical departments, appointed the chairs and the medical director. The therapeutics and pharmacy committees were likewise created to prepare the hospital formulary. Numerous meetings were held in the temporary office at the St. Elizabeth building to prepare the guidelines of each department.</p>
 </div>
 </div>
 </div>
@@ -482,7 +466,7 @@
 <div class="container py-3">
 <div class="row">
 <div class="col">
-  <p style="font-size: 20px;">There was a flurry of activities. These were all geared towards obtaining the permit from DOH. By March almost all the structural works and finishing were complete. In April 17, 2018, a team from Department of Health visited and evaluated the Hospital. They made several structural and functional suggestions which were fully addressed. After two months a second visit was made on June 17. After a thorough evaluation by DOH head office, the License to Operate was given on July 5, 2018. The OPCC, together with the laboratory, pharmacy and diagnostic services commenced operation on July 9. The grand opening was held on July 17 and accepted patients starting July 18, 2018.</p>
+  <p class="lead">There was a flurry of activities. These were all geared towards obtaining the permit from DOH. By March almost all the structural works and finishing were complete. In April 17, 2018, a team from Department of Health visited and evaluated the Hospital. They made several structural and functional suggestions which were fully addressed. After two months a second visit was made on June 17. After a thorough evaluation by DOH head office, the License to Operate was given on July 5, 2018. The OPCC, together with the laboratory, pharmacy and diagnostic services commenced operation on July 9. The grand opening was held on July 17 and accepted patients starting July 18, 2018.</p>
 </div>
 </div>
 </div>
@@ -491,7 +475,7 @@
 <div class="row">
 <div class="col">
   <h2 style="background-color: rgb(27, 64, 128);" class="text-white">  H. THE NOVELTIES</h2>
-  <p style="font-size: 20px;">The newly completed hospital is full of innovations. It is first and only hospital that has: 1) computer-controlled pneumatic tube system to deliver drugs, documents and specimens to and from laboratories, nurses’ stations and payments to the cashier; 2) fully integrated computerized electronic health record system; 3) OPCC or out patient clinical care for out patients - composed of 40 multi-specialty clinics with adjacent laboratory unified in one floor; 4) a scenic elevator which would transport patients directly from the ground to the 3rd floor OPCC; 5) free wi-fi through local area network which would allow wireless connection to the internet; and 6) wide parking spaces that could accommodate more than 200 vehicles.</p>
+  <p class="lead">The newly completed hospital is full of innovations. It is first and only hospital that has: 1) computer-controlled pneumatic tube system to deliver drugs, documents and specimens to and from laboratories, nurses’ stations and payments to the cashier; 2) fully integrated computerized electronic health record system; 3) OPCC or out patient clinical care for out patients - composed of 40 multi-specialty clinics with adjacent laboratory unified in one floor; 4) a scenic elevator which would transport patients directly from the ground to the 3rd floor OPCC; 5) free wi-fi through local area network which would allow wireless connection to the internet; and 6) wide parking spaces that could accommodate more than 200 vehicles.</p>
 </div>
 </div>
 </div>
@@ -503,7 +487,7 @@
 <div class="row">
 <div class="col">
   <h2 style="background-color: rgb(27, 64, 128);" class="text-white"> I. THE 75 FOUNDING PHYSICIANS</h2>
-  <p style="font-size: 20px;">This was a unique concept in Iloilo. Instead of constructing the infrastructure first, the pool of doctors who will support the Hospital were recruited from the start and involved in the decision making. Initially, it was a leap of faith for the major investors or founders who took the risk and believed that the dream could be realized. These doctors and corresponding specialty were:</p>
+  <p class="lead">This was a unique concept in Iloilo. Instead of constructing the infrastructure first, the pool of doctors who will support the Hospital were recruited from the start and involved in the decision making. Initially, it was a leap of faith for the major investors or founders who took the risk and believed that the dream could be realized. These doctors and corresponding specialty were:</p>
   
 
  
@@ -609,68 +593,67 @@
 
   <footer id="footer" class="footer light-background">
 
-    <div class="container footer-top mb-5">
-    <div class="row gy-4">
-      <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.php" class="logo d-flex align-items-center">
-          <span class="sitename">Contact Us</span>
-        </a>
-        <div class="footer-contact pt-3">
-          <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
-          <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
-          <p>Jaro, Iloilo City, Iloilo, Philippines</p>
-          <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
-          <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
-        </div>
-        
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4 >QUICK ACCESS</h4>
-        <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>MIHMCI</h4>
-        <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-4 col-md-3 footer-links">
-        <h4>Social Media</h4>
-        <ul>
-          <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
-        </ul>
-    
-        <div class="social-links d-flex mt-4">
-          <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
-          <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
-        </div>
-      </div>
-    
-    
-    
-    </div>
+<div class="container footer-top mb-5">
+<div class="row gy-4">
+  <div class="col-lg-4 col-md-6 footer-about">
+    <a href="index.php" class="logo d-flex align-items-center">
+      <span class="sitename">Contact Us</span>
+    </a>
+    <div class="footer-contact pt-3">
+      <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
+      <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
+      <p>Jaro, Iloilo City, Iloilo, Philippines</p>
+      <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
+      <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
     </div>
     
-    <div class="container-fluid copyright text-center">
-    <p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
-    <div class="credits">
-    
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4 >QUICK ACCESS</h4>
+    <ul>
+      <li><a  href="../Project-Web1/about.php">About</a></li>
+      <li><a  href="../Project-Web1/faq.php">FAQ</a></li>
+      <li><a href="../Project-Web1/contact.php">Contact</a></li>
+      <li><a href="../Project-Web1/services.php">Services</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4>MIHMCI</h4>
+    <ul>
+      <li><a  href="../Project-Web1/rates.php">Rates</a></li>
+      <li><a  href="../Project-Web1/packages.php">Packages</a></li>
+      <li><a  href="../Project-Web1/doctor.php">Doctor's</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-4 col-md-3 footer-links">
+    <h4>Social Media</h4>
+    <ul>
+      <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
+    </ul>
+
+    <div class="social-links d-flex mt-4">
+      <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
     </div>
-    </div>
-    
-    </footer>
-  </footer>
+  </div>
+
+
+
+</div>
+</div>
+
+<div class="container-fluid copyright text-center">
+<p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
+<div class="credits">
+
+</div>
+</div>
+
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

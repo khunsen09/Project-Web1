@@ -75,7 +75,108 @@
       transform: scale(1.05);
     }
 
+
+
     
+    .hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 0 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero:before {
+  content: "";
+  /* background: color-mix(in srgb, var(), transparent 30%); */
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 3;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 76px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero h2 span {
+  color: var(--accent-color);
+}
+
+.hero p {
+  margin: 10px 0 0 0;
+  font-size: 24px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.hero .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: var(--accent-color);
+}
+
+.hero .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.hero .icon-box h3 a {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  transition: ease-in-out 0.3s;
+}
+
+.hero .icon-box:hover {
+  border-color: var(--accent-color);
+}
+
+.hero .icon-box:hover h3 a {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+}
 
 </style>
 
@@ -122,44 +223,62 @@
 
   <main class="main">
 
-    
+       <!-- Hero Section -->
+  <section id="hero" class="hero section">
 
-    <!--new home-->
-<!-- Hero Section -->
-<section id="hero" class="hero section" style="background: url('Images/sample-design.png') no-repeat center center; background-size: cover;">
+<img src="https://wallpapercave.com/wp/wp2757874.gif" alt="" data-aos="fade-in">
 
-  <div class="container">
-    <div class="row gy-4">
-      <div class="col-lg-6  order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-        <h1 class="text-dark" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Metro Iloilo Hospital and Medical Center, Inc.</h1>
-        <p class="text-dark mt-3">Metro Iloilo Hospital and Medical Center, Inc. (MIHMCI) provides the highest quality patient-focused health care that offers comprehensive and personalized packages. 
-          The executive packages provide screening programs intended to improve the prevention of illness and identify potential disease complications.</p>
-        <div class="d-flex">
-          <a href="about.php" class="btn-get-started">Read More</a>
-          <!-- <a href="https://metroiloilohospital.com/vid/mm.mp4#t=02" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span class="text-danger">Watch Video</span></a> -->
-        </div>
-      </div>
+<div class="container">
 
-      <!--Video-->
-            <div class="col-md-6 py-3 order-1 order-lg-2">
-                <!-- Right Column with Video and Poster Image -->
-                <video autoplay muted loop controls ="../Pictures/metro-hospital.jpg" class="img-fluid">
-                    <source src="https://metroiloilohospital.com/vid/mm.mp4#t=02" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-  
-      
-      
-      <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="Images/metro-iloilo-page.jpg" class="img-fluid animated" alt="">
-      </div> -->
-
+  <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-10 col-lg-8">
+      <h2 style="color: #004085;">Metro Iloilo Hospital & Medical Center, Inc<span>.</span></h2>
+      <p>Making Innovations for your Health & Medical Care</p>
     </div>
   </div>
 
+
+
+
+  <!-- <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="icon-box">
+        <i class="bi bi-binoculars"></i>
+        <h3><a href="">About</a></h3>
+      </div>
+    </div>
+    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+      <div class="icon-box">
+        <i class="bi bi-bullseye"></i>
+        <h3><a href="">Services</a></h3>
+      </div>
+    </div>
+    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+      <div class="icon-box">
+        <i class="bi bi-fullscreen-exit"></i>
+        <h3><a href="">Departments</a></h3>
+      </div>
+    </div>
+    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+      <div class="icon-box">
+        <i class="bi bi-card-list"></i>
+        <h3><a href="">FAQS</a></h3>
+      </div>
+    </div>
+    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+      <div class="icon-box">
+        <i class="bi bi-gem"></i>
+        <h3><a href="">CONTACT</a></h3>
+      </div>
+    </div>
+  </div> -->
+
+</div>
+
 </section><!-- /Hero Section -->
-    
+
+   
+
 
 
  
@@ -179,30 +298,60 @@
     <!-- <h2 class="text-center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Metro Iloilo Hospital & Medical Center, Inc.</h2> -->
     <div class="row">
       <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="200">
-        <p style="font-size: 18px;">
+        <p class="lead">
           Sometime in 1997, Dr. Angelo “Anji” and Dr. Ma. Mercedita “Lana” Alcala opened the idea of building a hospital for the Ilonggos to Dr. Evelyn “Bukay” Lozada, Dr. Roberto “Bob” Lozada and later on to Dr. Danilo “Dan” Encarnacion. Except for Dr. Bob the four were very close friends being classmates in West Visayas State College of Medicine. Drs. Anji & Lana wanted to share their experience, having been involved in the building of several hospitals in Metro Manila.
         </p>
-        <div class="container my-5">
-          <div class="row gallery">
-            <!-- Column 1 -->
-            <div class="col-md-6">
-              <img src="Images/1.png" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-            </div>
-            <!-- Column 2 -->
-            <div class="col-md-6">
-              <img src="Images/2.png" alt="Image 2" class="img-thumbnail" onclick="openModal(this.src)">
-            </div>
-          </div>
-        </div>
-        <div class="container my-5">
-          <div class="row gallery">
-            <!-- Column 1 -->
-            <div class="col-md-12">
-              <img src="Images/1.png" alt="Image 1" class="img-thumbnail" onclick="openModal(this.src)">
-            </div>
-            <!-- Column 2 -->
-          </div>
-        </div>
+        
+  <div class="container">
+
+
+
+  <div class="row gy-4 d-flex justify-content-center align-items-center my-4">
+  <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+    <div class="position-relative">
+      <img src="Images/metro-iloilo-page.jpg" class="img-fluid" alt="">
+      <!-- Centered play button -->
+      <a href="https://metroiloilohospital.com/vid/mm.mp4#t=02" 
+         class="glightbox pulsating-play-btn position-absolute top-50 start-50 translate-middle">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="border: none;">
+      <div class="modal-body text-center position-relative p-0">
+        <!-- Close button (X) in top right corner -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close" id="closeModalButton"></button>
+        <img id="modalImage" src="" alt="Large view" class="img-fluid" style="max-width: 100%; height: auto; border: none;">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // JavaScript function to open the modal with the selected image
+  function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+    myModal.show();
+  }
+
+  // Close button functionality
+  document.getElementById('closeModalButton').addEventListener('click', function() {
+    var myModalEl = document.getElementById('imageModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl); // Retrieve the Bootstrap modal instance
+    modal.hide(); // Close the modal
+  });
+</script>
+
+
+
         <!--close button-->
         <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
@@ -217,9 +366,9 @@
           </div>
         </div>
         <ul>
-          <li class="mt-3"style="font-size: 18px;" ><i></i> <span>The idea did not materialize until 14 years later when idea to build a hospital owned by doctors from Iloilo was revived.</span></li>
-          <li class="mt-3" style="font-size: 18px;"><i></i> <span>The first step taken was the formation of a core group of physicians that would be involved in the initial planning. The members were Dr. Angelo Alcala, Dr. Mercedita Lana, Dr. Danilo Encarnacion, Dr. Evelyn Lozada, Dr. Roberto Lozada, Dr. Roland Uy, Dr. Anton Juan Loa, Dr. Myrna Ong and Dr. Chester Jardiolin. Eventually, other members were recruited to complete the 15 members of the Board and they were – Dr. Danilo Valencia, Dr. Jesse Uy, Dr. Erwin Dulos, Dr. Segundo Anayan, Dr. Hannah Jabasa and Dr. Perpetua Socorro Barrera.</span></li>
-          <li class="mt-3" style="font-size: 18px;" ><i></i> <span> It was decided that the “founders” or major stockholders that would be recruited will be limited to 75 physicians that were actively practicing. Even the common shares were first offered to practicing physicians. They were expected to refer patients to the hospital in the future.</span></li>
+          <li class="mt-3 lead" ><i></i> <span>The idea did not materialize until 14 years later when idea to build a hospital owned by doctors from Iloilo was revived.</span></li>
+          <li class="mt-3 lead" ><i></i> <span>The first step taken was the formation of a core group of physicians that would be involved in the initial planning. The members were Dr. Angelo Alcala, Dr. Mercedita Lana, Dr. Danilo Encarnacion, Dr. Evelyn Lozada, Dr. Roberto Lozada, Dr. Roland Uy, Dr. Anton Juan Loa, Dr. Myrna Ong and Dr. Chester Jardiolin. Eventually, other members were recruited to complete the 15 members of the Board and they were – Dr. Danilo Valencia, Dr. Jesse Uy, Dr. Erwin Dulos, Dr. Segundo Anayan, Dr. Hannah Jabasa and Dr. Perpetua Socorro Barrera.</span></li>
+          <li class="mt-3 lead"  ><i></i> <span> It was decided that the “founders” or major stockholders that would be recruited will be limited to 75 physicians that were actively practicing. Even the common shares were first offered to practicing physicians. They were expected to refer patients to the hospital in the future.</span></li>
         </ul>
         
         
@@ -240,7 +389,7 @@
   
 
 <!-- Service 5 - Bootstrap Brain Component -->
-<section id="services" class="services bg-light py-3 py-md-5 py-xl-8">
+<!-- <section id="services" class="services bg-light py-3 py-md-5 py-xl-8">
   <div class="container overflow-hidden">
     <div class="row gy-4 gy-md-5 gy-lg-0 align-items-center">
       <div class="col-12 col-lg-5">
@@ -320,10 +469,90 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
   
     
+<section id="services" class="services bg-light py-3 py-md-5 py-xl-8" style="background-image: url(''); background-size: cover; background-position: center; background-attachment: fixed;">
+  <div class="container overflow-hidden">
+    <div class="row gy-4 gy-md-5 gy-lg-0 align-items-center">
+      <div class="col-12 col-lg-5">
+        <div class="row" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-12 col-xl-11">
+              <h3 class="fs-6 text-secondary mb-3 mb-xl-4 text-uppercase">What We Do?</h3>
+              <h2 class="mb-3 mb-xl-4">Providing Exceptional Care Through Our Comprehensive Services.</h2>
+              <p class="mb-3 mb-xl-4 lead" >At our hospital, we offer a wide range of medical services designed to cater to your health needs and promote your well-being. Our dedicated team of healthcare professionals is committed to delivering compassionate care and innovative treatments in a safe environment. Whether you require emergency services, specialized treatments, or routine check-ups, we are here to support you every step of the way. Contact us today to learn more about how we can help you achieve optimal health. Your well-being is our top priority.</p>
+              <a href="services.php" class="btn bsb-btn-2xl btn-primary rounded-pill">More Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7 overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+        <div class="row gy-4">
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <img src="https://cdn-icons-png.flaticon.com/512/1106/1106992.png" alt="Pharmacy Icon" width="56" height="56" class="text-primary mb-4" />
+                <h4 class="mb-4">Pharmacy</h4>
+                <p class="mb-4 lead">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
+                <a href="../Project-Web1/pharmacy.php" class="fw-bold text-decoration-none link-primary">
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/laparoscopy-1609480-1362222.png" alt="Laparoscopic Surgery Icon" width="56" height="56" class="text-primary mb-4" />
+                <h4 class="mb-4">Laparoscopic Surgery</h4>
+                <p class="mb-4 lead">Performed by the best laparascopic surgeon, Dr. Segundo Anayan, Jr.</p>
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <img src="https://cdn-icons-png.flaticon.com/512/5278/5278330.png" alt="Endoscopy Icon" width="56" height="56" class="text-primary mb-4" />
+                <h4 class="mb-4">One Endoscopy Unit</h4>
+                <p class="mb-4 lead">• EGD <br></p>
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <img src="https://www.svgrepo.com/show/326007/outpatient.svg" alt="Out-patient Care Icon" width="56" height="56" class="text-primary mb-4" />
+                <h4 class="mb-4">Out-patient Care Complex (OPCC)</h4>
+                <p class="mb-4 lead">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
+                <a href="services.php" class="fw-bold text-decoration-none link-primary">
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     
 
@@ -389,7 +618,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Pharmacy</h3>
-                <p >Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life. will served as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high quality and patient centered pharmacy services through continuum pharmaceutical care.</p>
+                <p class="lead">Provides the best possible pharmaceutical care experience through responsible and accurate drug therapy, for the purpose of achieving good patient care outcomes that will improve the quality of life. will served as an emblem of good dispensing practice and will be a leader in providing innovative, progressive, high quality and patient centered pharmacy services through continuum pharmaceutical care.</p>
                   <a href="departments/pharmacy.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -402,8 +631,8 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Laparascopic Surgery</h3>
-                <p>Single Incision Laparoscopic Cholecystectomy.</p>
-                <p>Almost SCARLESS surgery.</p>
+                <p class="lead">Single Incision Laparoscopic Cholecystectomy.</p>
+                <p class="lead">Almost SCARLESS surgery.</p>
                 <a href="departments/laparascopic.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -416,7 +645,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>One Endoscopy Unit</h3>
-                <p>An endoscopy is used in medicine to look inside the body. The endoscopy procedure uses an endoscope to examine the interior of a hollow organ or cavity of the body.</p>
+                <p class="lead">An endoscopy is used in medicine to look inside the body. The endoscopy procedure uses an endoscope to examine the interior of a hollow organ or cavity of the body.</p>
                 <a href="departments/laparascopic.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -429,7 +658,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Out-Patient Care Complex</h3>
-                <p> The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center.    The OPCC aims to deliver the utmost compassionate healthcare services located within a single establishment.</p>
+                <p class="lead"> The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center.    The OPCC aims to deliver the utmost compassionate healthcare services located within a single establishment.</p>
                 <a href="departments/outpatient.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -442,7 +671,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Cardio-Pulmo</h3>
-                <p>Our Cardiology and Pulmonology Departments offer advanced diagnostic and treatment options, with a team of specialists dedicated to heart and lung health for comprehensive, compassionate care.</p>
+                <p class="lead">Our Cardiology and Pulmonology Departments offer advanced diagnostic and treatment options, with a team of specialists dedicated to heart and lung health for comprehensive, compassionate care.</p>
 
                 <a href="departments/cardio-pulmo.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
@@ -456,7 +685,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Radiology</h3>
-                <p>The best medical imaging provider in Iloilo City. State of the art diagnostic imaging modalities. Qualified and competent diagnostic consultants and personnel with continuous medical education and training or consultants and staff. Promotes a prompt diagnostic results Application of Hospital Information System To come up with residency training and research program To provide convenience and comfort by bringing diagnostic equipments to patient.</p>
+                <p class="lead">The best medical imaging provider in Iloilo City. State of the art diagnostic imaging modalities. Qualified and competent diagnostic consultants and personnel with continuous medical education and training or consultants and staff. Promotes a prompt diagnostic results Application of Hospital Information System To come up with residency training and research program To provide convenience and comfort by bringing diagnostic equipments to patient.</p>
                 <a href="departments/radiology.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -469,7 +698,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Operating Room Complex</h3>
-                <p>Our Operating Room Complex is a modern, high-tech facility designed for a wide range of surgical procedures. Staffed by expert surgeons and support teams, it ensures safe, precise, and compassionate care to achieve the best outcomes for our patients.</p>
+                <p class="lead">Our Operating Room Complex is a modern, high-tech facility designed for a wide range of surgical procedures. Staffed by expert surgeons and support teams, it ensures safe, precise, and compassionate care to achieve the best outcomes for our patients.</p>
                 <a href="departments/operating-room.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -482,7 +711,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Intensive Care Unit</h3>
-                <p>Our Intensive Care Unit (ICU) provides specialized, around-the-clock care for critically ill patients. Staffed by expert medical professionals and equipped with advanced technology, our ICU ensures each patient receives personalized, immediate attention to support recovery and well-being.</p>
+                <p class="lead">Our Intensive Care Unit (ICU) provides specialized, around-the-clock care for critically ill patients. Staffed by expert medical professionals and equipped with advanced technology, our ICU ensures each patient receives personalized, immediate attention to support recovery and well-being.</p>
                 <a href="departments/intensive-care.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -495,7 +724,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Emergency Room</h3>
-                <p>Our Emergency Room (ER) operates 24/7, providing rapid and efficient care for urgent medical needs. Staffed by a dedicated team of emergency specialists, we prioritize quick assessment and treatment for a wide range of conditions, ensuring that every patient receives immediate attention.</p>
+                <p class="lead">Our Emergency Room (ER) operates 24/7, providing rapid and efficient care for urgent medical needs. Staffed by a dedicated team of emergency specialists, we prioritize quick assessment and treatment for a wide range of conditions, ensuring that every patient receives immediate attention.</p>
                 <a href="departments/emergency-room.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -508,7 +737,7 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Dialysis Unit</h3>
-                <p>Our Dialysis Unit provides specialized care for patients with kidney disease, offering hemodialysis and peritoneal dialysis in a comfortable environment. Our skilled team prioritizes personalized treatment and patient education to help individuals manage their condition and enhance their quality of life.</p>
+                <p class="lead">Our Dialysis Unit provides specialized care for patients with kidney disease, offering hemodialysis and peritoneal dialysis in a comfortable environment. Our skilled team prioritizes personalized treatment and patient education to help individuals manage their condition and enhance their quality of life.</p>
                 <a href="departments/dialysis-unit.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -521,8 +750,8 @@
             <div class="row">
               <div class="col-lg-8 details order-2 order-lg-1">
                 <h3>Rehabilitation Center</h3>
-                <p >Our Rehabilitation Center offers comprehensive care to help patients recover and regain independence following illness, injury, or surgery. With a team of skilled therapists and specialists, we provide personalized physical, occupational, and speech therapy in a supportive environment. Our goal is to guide each patient toward optimal recovery and improved quality of life.</p>
-                <button class="btn btn-primary mt-3">Learn More</button>
+                <p class="lead">Our Rehabilitation Center offers comprehensive care to help patients recover and regain independence following illness, injury, or surgery. With a team of skilled therapists and specialists, we provide personalized physical, occupational, and speech therapy in a supportive environment. Our goal is to guide each patient toward optimal recovery and improved quality of life.</p>
+                <a href="departments/rehabilitation.php" class="btn btn-primary mt-3">Learn More</a>
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="Images/rehabilitation-2.jpg" alt="" class="img-fluid">
@@ -545,7 +774,7 @@
   
 
     <!-- Doctors Section -->
-<section id="doctors" class="doctors section">
+<section id="doctors" class="doctors section bg-light">
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2 class="text-center mb-5">SEARCH DOCTORS FOR SCHEDULES & AVAILABILITY</h2>
@@ -745,7 +974,7 @@
                                   </div>
                               </div>
                           </div>
-                          <a href="#"><button class="btn btn-primary container">View More</button></a>
+                          <!-- <a href="#"><button class="btn btn-primary container">View More</button></a> -->
                           </div>
                       </div>
                   </div>
@@ -760,7 +989,7 @@
                           <div class="accordion-body">
                               <p>Metropolis Ave, Brgy. Tagbak, Jaro, Iloilo City, Iloilo, Philippines.</p>
                               <p>Metro Iloilo Hospital & Medical Center, Inc. is the first private and complete hospital in the northeastern part of Iloilo. Being the only hospital within the 5-kilometer radius of the northeastern part of Iloilo City. We are near patients who are coming from Passi, Barotac, and Pototan, etc.</p>
-                              <a href="#"><button class="btn btn-primary container">Read More</button></a>
+                              <!-- <a href="#"><button class="btn btn-primary container">Read More</button></a> -->
                             </div>
                       </div>
                   </div>
@@ -774,7 +1003,7 @@
                       <div id="clinic" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                               <p>The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center.</p>
-                              <a href="#"><button class="btn btn-primary container">Read More</button></a>
+                              <!-- <a href="#"><button class="btn btn-primary container">Read More</button></a> -->
                             </div>
                       </div>
                   </div>
@@ -906,7 +1135,7 @@
                                               <li>Religious Counselling</li>
                                               <li>Billing Charges</li>
                                           </ul>
-                                          <a href="#"><button class="btn btn-primary container">Read More</button></a>
+                                          <!-- <a href="#"><button class="btn btn-primary container">Read More</button></a> -->
                                       </div>
                                   </div>
                               </div>
@@ -1058,19 +1287,19 @@
       <div class="col-lg-2 col-md-3 footer-links">
         <h4 >QUICK ACCESS</h4>
         <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a  href="../Project-Web1/about.php">About</a></li>
+          <li><a  href="../Project-Web1/faq.php">FAQ</a></li>
+          <li><a href="../Project-Web1/contact.php">Contact</a></li>
+          <li><a href="../Project-Web1/services.php">Services</a></li>
         </ul>
       </div>
     
       <div class="col-lg-2 col-md-3 footer-links">
         <h4>MIHMCI</h4>
         <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
+          <li><a  href="../Project-Web1/rates.php">Rates</a></li>
+          <li><a  href="../Project-Web1/packages.php">Packages</a></li>
+          <li><a  href="../Project-Web1/doctor.php">Doctor's</a></li>
         </ul>
       </div>
     

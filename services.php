@@ -63,7 +63,7 @@
   
         <!-- Search Form -->
         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
@@ -99,10 +99,10 @@
   <section id="services" class="services section bg-light py-3 py-md-5 py-xl-8 services" >
     <div class="container">
        <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2 class="text-center mb-3">Our Services</h2>
-    <p class="title-paragraph text-center" style="font-size: 18px;">Our hospital provides comprehensive healthcare services, from primary and emergency care to specialized surgery, maternity, rehabilitation, and diagnostics. With advanced technology and skilled professionals, we deliver high-quality, patient-centered care tailored to each individual’s needs.</p>
-  </div><!-- End Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 class="text-center mb-3">Our Services</h2>
+          <p class="title-paragraph text-center mb-5" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">We provide expert medical care with advanced treatments, diagnostics, and personalized attention, ensuring your health and well-being in a compassionate environment.</p>
+        </div><!-- End Section Title -->
     </div>
     
   <!--1-->
@@ -116,7 +116,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/1106/1106992.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Pharmacy</h4>
-                    <p class="mb-4 text-secondary">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
+                    <p class="mb-4 lead">Provides a wide range of medicines for our admitted patients as well as outpatient.</p>
                     <a href="departments/pharmacy.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -131,7 +131,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/laparoscopy-1609480-1362222.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Laparoscopic Surgery</h4>
-                    <p class="mb-4 text-secondary">We offer laparoscopic surgery, a minimally invasive option using small incisions for faster recovery and less scarring. Our expert team provides safe, effective care to help you return to daily life quickly.</p>
+                    <p class="mb-4 lead">We offer laparoscopic surgery, a minimally invasive option using small incisions for faster recovery and less scarring. Our expert team provides safe, effective care to help you return to daily life quickly.</p>
                     <a href="departments/laparascopic.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -146,7 +146,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/5278/5278330.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">One Endoscopy Unit</h4>
-                    <p class="mb-4 text-secondary">• Esophagogastroduodenoscopy <br> • ERP | Colonoscopy | Bronchoscopy</p>
+                    <p class="mb-4 lead">• Esophagogastroduodenoscopy <br> • ERP | Colonoscopy | Bronchoscopy</p>
                     <a href="departments/endoscopy.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -171,7 +171,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://www.svgrepo.com/show/326007/outpatient.svg" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Out-patient Care Complex (OPCC)</h4>
-                    <p class="mb-4 text-secondary">The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such... The OPCC aims to deliver the utmost compassionate healthcare services. To provide convenience to patients, it has a scenic elevator in front of the hospital that provides direct access to the OPCC...</p>
+                    <p class="mb-4 lead">The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such.</p>
                     <a href="departments/outpatient.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -187,14 +187,14 @@
                     <img src="https://png.pngtree.com/png-clipart/20230417/original/pngtree-diagnostic-line-icon-png-image_9063609.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Diagnostic & Ancillary Services</h4>
                     <h6 class="text-start"><strong>Radiology</strong></h6>
-                    <p class="mb-4 text-secondary text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography <br> • High Resolution CT Scan <br>• General/OB Ultrasound with 4D<br> • Liver Elastography </p>
+                    <p class="mb-4 lead text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography <br> • High Resolution CT Scan <br>• General/OB Ultrasound with 4D<br> • Liver Elastography </p>
                     <a href="departments/radiology.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                       </svg>
                     </a>
                     <h6 class="text-start mt-4"><strong>Cardiology/Pulmonary</strong></h6>
-                    <p class="mb-4 text-secondary text-start">• 2D Echocardiology 
+                    <p class="mb-4 lead text-start">• 2D Echocardiology 
                       <br> • Stress Test <br>• ABG Analysis <br> • CPAP/BIPAP                    </p>
                     <a href="departments/cardio-pulmo.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -211,7 +211,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/83/83672.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Laboratory</h4>
                     <h6 class="text-start mt-4"><strong>Fully Automated 24-Hour Laboratory Services:</strong></h6>
-                    <p class="mb-4 text-secondary text-start">•
+                    <p class="mb-4 lead text-start">•
                       <strong> Bacteriology </strong><br>Culture & Sensi ETA, Throat Swab, etc...<br>
                      • <strong> Blood Bank </strong><br>Blood Typing, RH Typing, etc...                     <br>  
                      • <strong> Hematology </strong><br>CBC, Platelet Count, etc...<br>  
@@ -243,7 +243,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/3596/3596003.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Operating Room Complex</h4>
-                    <p class="mb-4 text-secondary text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography 
+                    <p class="mb-4 lead text-start">• Digital Radiology X-Ray | C-Arm | Portable X-Ray | Mammography 
                       <br> • Operating Room
                       <br>• Delivery Room
                       <br> • Recovery Room 
@@ -263,7 +263,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/979/979008.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Intensive Care Unit</h4>
-                    <p class="mb-4 text-secondary text-start">• Medical - ICU
+                    <p class="mb-4 lead text-start">• Medical - ICU
                       <br> • Neonatal - ICU
                       <br>• Pediatric - ICU
                       <br> • Surgical - ICU 
@@ -282,7 +282,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/9733/9733672.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Emergency Room Services</h4>
-                    <p class="mb-4 text-secondary text-start">• 2 Pediatric Beds
+                    <p class="mb-4 lead text-start">• 2 Pediatric Beds
                       <br> • 2 OB-GYNE Beds
                       <br>• 2 Trauma Beds
                       <br>• 1 Isolation Bed 
@@ -312,7 +312,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://static.thenounproject.com/png/2225066-200.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Hemodialysis Unit</h4>
-                    <p class="mb-4 text-secondary">Equiped with high-end machines to cater patients</p>
+                    <p class="mb-4 lead">Equiped with high-end machines to cater patients</p>
                     <a href="departments/dialysis-unit.php" class="btn btn-outline-primary bsb-btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -327,7 +327,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/163/163008.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Rehabilitation Center</h4>
-                    <p class="mb-4 text-secondary text-start">• Electrotherapy
+                    <p class="mb-4 lead text-start">• Electrotherapy
                       <br> • Manual Therapy
                       <br>• Gait Re-training
                       <br>• Pain Management 
@@ -346,7 +346,7 @@
                   <div class="card-body text-center p-4 p-xxl-5">
                     <img src="https://cdn-icons-png.flaticon.com/512/2719/2719428.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                     <h4 class="mb-4">Arthroscopy</h4>
-                    <p class="mb-4 text-secondary">A minimally invasive surgical procedure on a joint in which an examination and sometimes treatment of damage is performed using an arthroscope.</p>
+                    <p class="mb-4 lead">A minimally invasive surgical procedure on a joint in which an examination and sometimes treatment of damage is performed using an arthroscope.</p>
                  
                   </div>
                 </div>
@@ -370,7 +370,7 @@
                     <div class="card-body text-center p-4 p-xxl-5">
                       <img src="https://cdn4.iconfinder.com/data/icons/coronavirus-188/100/covid-test-nasal_swab-coronavirus-laboratory-negative-512.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                       <h4 class="mb-4">Covid Lab</h4>
-                      <p class="mb-4 text-secondary">Our COVID-19 lab provides fast, accurate PCR and rapid antigen tests, ensuring reliable results to protect the health and safety of our patients and community.</p>
+                      <p class="mb-4 lead">Our COVID-19 lab provides fast, accurate PCR and rapid antigen tests, ensuring reliable results to protect the health and safety of our patients and community.</p>
                     </div>
                   </div>
                 </div>
@@ -380,7 +380,7 @@
                     <div class="card-body text-center p-4 p-xxl-5">
                       <img src="https://cdn-icons-png.flaticon.com/512/2707/2707294.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                       <h4 class="mb-4">Ambulance Service</h4>
-                      <p class="mb-4 text-secondary">24H Availability of Ambulance.</p>
+                      <p class="mb-4 lead">"24H Availability of Ambulance."</p>
                     </div>
                   </div>
                 </div>
@@ -391,7 +391,7 @@
                     <div class="card-body text-center p-4 p-xxl-5">
                       <img src="https://cdn-icons-png.flaticon.com/512/3373/3373025.png" alt="OPCC Icon" width="48" height="48" class="mb-4 text-primary">
                       <h4 class="mb-4">Dietary</h4>
-                      <p class="mb-4 text-secondary">Nutrition & Diabetic Services</p>
+                      <p class="mb-4 lead">"Nutrition & Diabetic Services"</p>
                     </div>
                   </div>
 
@@ -500,71 +500,67 @@
 
   <footer id="footer" class="footer light-background">
 
-    <div class="container footer-top">
-    <div class="row gy-4">
-      <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.php" class="logo d-flex align-items-center">
-          <span class="sitename">Contact Us</span>
-        </a>
-        <div class="footer-contact pt-3">
-          <p>Metro Iloilo Hospital & Medical Center, Inc.</p>
-          <p class="mt-3">Metropolis Ave, Brgy. Tagbak,</p>
-          <p>Jaro, Iloilo City, Iloilo, Philippines</p>
-          <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
-          <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
-        </div>
-        
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>QUICK ACCESS</h4>
-        <ul>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Accredited HMO</a></li>
-          <li><a href="#">The 75 Founders</a></li>
-          <li><a href="#">Patients Rights & Responsibilities</a></li>
-          <li><a href="#">Rooms</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>MIHMCI</h4>
-        <ul>
-          <li><a href="#">Web Design</a></li>
-          <li><a href="#">Web Development</a></li>
-          <li><a href="#">Product Management</a></li>
-          <li><a href="#">Marketing</a></li>
-          <li><a href="#">Graphic Design</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-4 col-md-3 footer-links">
-        <h4>Social Media</h4>
-        <ul>
-          <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
-        </ul>
-    
-        <div class="social-links d-flex mt-4">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-      </div>
-    
-    
-    
-    </div>
+<div class="container footer-top mb-5">
+<div class="row gy-4">
+  <div class="col-lg-4 col-md-6 footer-about">
+    <a href="index.php" class="logo d-flex align-items-center">
+      <span class="sitename">Contact Us</span>
+    </a>
+    <div class="footer-contact pt-3">
+      <p >Metro Iloilo Hospital & Medical Center, Inc.</p>
+      <p class="mt-3 ">Metropolis Ave, Brgy. Tagbak,</p>
+      <p>Jaro, Iloilo City, Iloilo, Philippines</p>
+      <p class="mt-3"><strong>Phone:</strong> <span>(033) 327-1527</span></p>
+      <p><strong>Email:</strong> <span>(033) 327-2030</span></p>
     </div>
     
-    <div class="container copyright text-center mt-4">
-    <p>© <span>2024</span> <strong class="px-1 sitename">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
-    <div class="credits">
-    
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4 >QUICK ACCESS</h4>
+    <ul>
+      <li><a  href="../Project-Web1/about.php">About</a></li>
+      <li><a  href="../Project-Web1/faq.php">FAQ</a></li>
+      <li><a href="../Project-Web1/contact.php">Contact</a></li>
+      <li><a href="../Project-Web1/services.php">Services</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2 col-md-3 footer-links">
+    <h4>MIHMCI</h4>
+    <ul>
+      <li><a  href="../Project-Web1/rates.php">Rates</a></li>
+      <li><a  href="../Project-Web1/packages.php">Packages</a></li>
+      <li><a  href="../Project-Web1/doctor.php">Doctor's</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-4 col-md-3 footer-links">
+    <h4>Social Media</h4>
+    <ul>
+      <li><a href="#"><b>Check our social media accounts and stay connected.</b></a></li>
+    </ul>
+
+    <div class="social-links d-flex mt-4">
+      <a  href="https://x.com/IloiloMetro" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a  href="https://www.facebook.com/MIHMCIPH/?ref=embed_page" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a  href="https://ph.pinterest.com/metroiloilohospitalph/" target="_blank"><i class="bi bi-pinterest"></i></a>
     </div>
-    </div>
-    
-    </footer>
+  </div>
+
+
+
+</div>
+</div>
+
+<div class="container-fluid copyright text-center">
+<p>© <span >2024</span> <strong class="px-1 sitename ">Metro Iloilo Hospital <span>& Medical Center, Inc.</span></strong></p>
+<div class="credits">
+
+</div>
+</div>
+
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

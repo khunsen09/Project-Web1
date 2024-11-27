@@ -103,7 +103,7 @@
   
          <!-- Search Form -->
          <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
   
@@ -161,6 +161,7 @@
     </style>
   </head>
   <body>
+
     <div class="container mt-5">
       <div class="container section-title">
       <h2 class="text-center mb-5">SEARCH DOCTORS RESULTS</h2>
@@ -339,7 +340,7 @@
 
   </main>
 
-  <footer id="footer" class="footer light-background" style="margin-top: 200px;">
+  <footer id="footer" class="footer light-background">
 
     <div class="container footer-top mb-5">
     <div class="row gy-4">
@@ -360,19 +361,19 @@
       <div class="col-lg-2 col-md-3 footer-links">
         <h4 >QUICK ACCESS</h4>
         <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a  href="../Project-Web1/about.php">About</a></li>
+          <li><a  href="../Project-Web1/faq.php">FAQ</a></li>
+          <li><a href="../Project-Web1/contact.php">Contact</a></li>
+          <li><a href="../Project-Web1/services.php">Services</a></li>
         </ul>
       </div>
     
       <div class="col-lg-2 col-md-3 footer-links">
         <h4>MIHMCI</h4>
         <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
+          <li><a  href="../Project-Web1/rates.php">Rates</a></li>
+          <li><a  href="../Project-Web1/packages.php">Packages</a></li>
+          <li><a  href="../Project-Web1/doctor.php">Doctor's</a></li>
         </ul>
       </div>
     

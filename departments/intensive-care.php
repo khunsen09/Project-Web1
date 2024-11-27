@@ -33,25 +33,25 @@
 
 <body class="service-details-page">
 
-  <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
+<header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
     <div class="branding d-flex align-items-center">
       
       <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <a href="../index.php" class="logo d-flex align-items-center me-auto">
           <img src="../Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
         </a>
   
         <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
           <ul>
-            <li><a href="../index.php" style="font-size: 15px;">Home</a></li>
+            <li><a href="../index.php"  style="font-size: 15px;">Home</a></li>
             <li><a href="../about.php" style="font-size: 15px;">About</a></li>
             <li><a href="../services.php" style="font-size: 15px;">Services</a></li>
             <li><a href="../departments.php" class="active" style="font-size: 15px;">Departments</a></li>
             <li><a href="../doctor.php" style="font-size: 15px;">Doctors</a></li>
             <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
+                <li><a href="../rates.php" style="font-size: 15px;">Rates</a></li>
+                <li><a href="../packages.php" style="font-size: 15px;" >Packages</a></li>
               </ul>
             </li>
             <li><a href="../faq.php" style="font-size: 15px;">FAQ'S</a></li>
@@ -60,11 +60,11 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
   
-     <!-- Search Form -->
-     <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-      <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
-      <button class="btn btn-outline-light" type="submit">Search</button>
-    </form>
+         <!-- Search Form -->
+         <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
+          <input class="form-control me-2" type="search" name="query" placeholder="Search doctors" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
   
       </div>
     </div>
@@ -76,22 +76,27 @@
 <div class="container section-title" data-aos="fade-up">
   <h2 class="text-center mt-5">Intensive Care Unit</h2>
   <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">7:00AM to 4:00PM | Mon to Sat | Ground Floor | 327-1527 loc. 8120</p>
-</div><!-- End Section Title -->
+</div>
 
+ 
 
-    <!-- Page Title -->
-  <!-- <div class="page-title" style="background-color: rgb(27, 64, 128)">
-    <div class="heading">
-      <div class="container">
-        <div class="row d-flex justify-content-center text-center">
-          <div class="col-lg-8">
-            <h1 class="heading-title text-light"style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Intensive Care Unit</h1>
-           
-              </div>
-             
-        </div>
-      </div>
-    </div> -->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2 class="display-4 fw-bold">Explore Our Rates & Services</h2>
+				<p class="lead">We offer a wide range of prescriptions, over-the-counter products, and expert health advice at competitive prices. Your health is our priority.</p>
+        <a href="../rates.php" class="btn btn-primary rounded-pill py-md-3 px-md-5 ">Rates</a>
+        <a href="../packages.php" class="btn btn-primary rounded-pill py-md-3 px-md-5 mx-2">Packages</a>
+			</div>
+			<div class="col-md-6 offset-md-1 my-3">
+				<p class="lead">Our Intensive Care Unit (ICU) is a specialized facility designed to provide advanced care for critically ill patients requiring close monitoring and complex medical treatment. Staffed by a multidisciplinary team of expert intensivists, nurses, and respiratory therapists, the ICU is equipped with state-of-the-art technology to manage life-threatening conditions and support vital functions.</p>
+				<p class="lead">We deliver personalized, round-the-clock care in a compassionate and controlled environment, ensuring the highest level of medical attention for patients and ongoing support for their families. Our commitment is to deliver excellence in critical care when it matters most.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
   </div><!-- End Page Title -->
 
   <style>
@@ -249,19 +254,19 @@
       <div class="col-lg-2 col-md-3 footer-links">
         <h4 >QUICK ACCESS</h4>
         <ul>
-          <li><a  href="#">About</a></li>
-          <li><a  href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a  href="../about.php">About</a></li>
+          <li><a  href="../faq.php">FAQ</a></li>
+          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../services.php">Services</a></li>
         </ul>
       </div>
     
       <div class="col-lg-2 col-md-3 footer-links">
         <h4>MIHMCI</h4>
         <ul>
-          <li><a  href="#">Rates</a></li>
-          <li><a  href="#">Packages</a></li>
-          <li><a  href="#">Doctor's</a></li>
+          <li><a  href="../rates.php">Rates</a></li>
+          <li><a  href="../packages.php">Packages</a></li>
+          <li><a  href="../doctor.php">Doctor's</a></li>
         </ul>
       </div>
     
