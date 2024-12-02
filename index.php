@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAprzkWHk0USe-8NEgra34MnmzKOv2es4hDQ&s" rel="icon">
+  <link href="./Images/icon.PNG" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -178,104 +178,87 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 </style>
 
 <body class="index-page">
 
-  <header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128);">
-    <div class="branding d-flex align-items-center">
-      
-      <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
-        <a href="index.php" class="logo d-flex align-items-center me-auto">
-          <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
-        </a>
-  
-        <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
-          <ul>
-            <li><a href="#hero" class="active" style="font-size: 15px;">Home</a></li>
-            <li><a href="#about" style="font-size: 15px;">About</a></li>
-            <li><a href="#services" style="font-size: 15px;">Services</a></li>
-            <li><a href="#department" style="font-size: 15px;">Departments</a></li>
-            <li><a href="#doctors" style="font-size: 15px;">Doctors</a></li>
-            <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
-                <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
-              </ul>
-            </li>
-            <li><a href="#gallery" style="font-size: 15px;">FAQ'S</a></li>
-            <li><a href="#contact" style="font-size: 15px;">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-  
-       
-        <!-- Search Form -->
-        <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
-          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
-  
-      </div>
+<!-- Header -->
+<header id="header" class="header sticky-top" style="background-color: rgb(27, 64, 128); display: none;">
+  <div class="branding d-flex align-items-center">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-end" style="margin-left: 10px;">
+      <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <img src="Images/HrmakeLong new.png" alt="logo" class="img-fluid" style="max-height: 95px; height: auto;">
+      </a>
+
+      <nav id="navmenu" class="navmenu" style="margin: 0 auto;">
+        <ul>
+          <li><a href="#hero" class="active" style="font-size: 15px;">Home</a></li>
+          <li><a href="#about" style="font-size: 15px;">About</a></li>
+          <li><a href="#services" style="font-size: 15px;">Services</a></li>
+          <li><a href="#department" style="font-size: 15px;">Departments</a></li>
+          <li><a href="#doctors" style="font-size: 15px;">Doctors</a></li>
+          <li class="dropdown"><a href="#"><span style="font-size: 15px;">Rates & Packages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="rates.php" style="font-size: 15px;">Rates</a></li>
+              <li><a href="packages.php" style="font-size: 15px;" >Packages</a></li>
+            </ul>
+          </li>
+          <li><a href="#gallery" style="font-size: 15px;">FAQ'S</a></li>
+          <li><a href="#contact" style="font-size: 15px;">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <form class="d-flex ms-3" action="doctor.php" method="get" role="search">
+        <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
     </div>
-  </header>
+  </div>
+</header>
+
+
   
 
   <main class="main">
 
-       <!-- Hero Section -->
-  <section id="hero" class="hero section">
+<!-- Hero Section -->
+<section id="hero" class="hero section position-relative">
+  <video autoplay muted loop playsinline class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;">
+    <source src="../Project-Web1/Images/metro-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-<img src="https://wallpapercave.com/wp/wp2757874.gif" alt="" data-aos="fade-in">
 
-<div class="container">
-
-  <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-10 col-lg-8">
-      <h2 style="color: #004085;">Metro Iloilo Hospital & Medical Center, Inc<span>.</span></h2>
-      <p>Making Innovations for your Health & Medical Care</p>
-    </div>
-  </div>
+  <!-- Add an overlay for better text visibility -->
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100 " style="opacity: 0.5;"></div>
+</section>
 
 
 
+<script>
+  // JavaScript to show the header after the video section
+  window.addEventListener('scroll', function() {
+    // var heroHeight = document.getElementById('hero').offsetHeight;
+    var heroHeight = 1;
 
-  <!-- <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-      <div class="icon-box">
-        <i class="bi bi-binoculars"></i>
-        <h3><a href="">About</a></h3>
-      </div>
-    </div>
-    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-      <div class="icon-box">
-        <i class="bi bi-bullseye"></i>
-        <h3><a href="">Services</a></h3>
-      </div>
-    </div>
-    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-      <div class="icon-box">
-        <i class="bi bi-fullscreen-exit"></i>
-        <h3><a href="">Departments</a></h3>
-      </div>
-    </div>
-    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-      <div class="icon-box">
-        <i class="bi bi-card-list"></i>
-        <h3><a href="">FAQS</a></h3>
-      </div>
-    </div>
-    <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-      <div class="icon-box">
-        <i class="bi bi-gem"></i>
-        <h3><a href="">CONTACT</a></h3>
-      </div>
-    </div>
-  </div> -->
+    console.log(heroHeight);
+    var header = document.getElementById('header');
+    
+    if (window.scrollY > heroHeight) {
+      header.style.display = 'block';  // Show header
+    } else {
+      header.style.display = 'none';  // Hide header
+    }
+  });
+</script>
 
-</div>
 
-</section><!-- /Hero Section -->
 
    
 

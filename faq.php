@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="./Images/icon.PNG" rel="icon">
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -215,7 +215,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#"><button class="btn btn-primary container">View More</button></a>
+                      
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,6 @@
                         <div class="accordion-body">
                             <p>Metropolis Ave, Brgy. Tagbak, Jaro, Iloilo City, Iloilo, Philippines.</p>
                             <p>Metro Iloilo Hospital & Medical Center, Inc. is the first private and complete hospital in the northeastern part of Iloilo. Being the only hospital within the 5-kilometer radius of the northeastern part of Iloilo City. We are near patients who are coming from Passi, Barotac, and Pototan, etc.</p>
-                            <a href="#"><button class="btn btn-primary container">Read More</button></a>
                           </div>
                     </div>
                 </div>
@@ -244,7 +243,6 @@
                     <div id="clinic" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>The Out Patient Care Complex designated as (OPCC) is located on the third floor of the MIHMCI main building. This is a Multi-Disciplinary Medical Complex Department created to provide multilevel “one stop shop” healthcare services to the patients. It is composed of 38 clinic rooms and offices that houses a wide variety of specialty clinics such as: the Adult Specialty Center (Gastroenterology, Pulmonary, Cardiology, Nephrology, Allergology and Dermatology), Surgical Center (General, Thoracic-Vascular, Pediatric Surgery, Urology, Neurosurgery, Orthopedic and Wound Care Center), Head, Neck and Otolaryngology Center, Children’s Center, Family Medicine and Occupational Center, Women’s Center, Neurosciences, Dental Services and Behavioral Center.</p>
-                            <a href="#"><button class="btn btn-primary container">Read More</button></a>
                           </div>
                     </div>
                 </div>
@@ -284,7 +282,6 @@
                                             <li>CARITAS HEALTH SHIELD</li>
                                             <li>VALUE CARE</li>
                                         </ul>
-                                        <a href="#"><button class="btn btn-primary container">Read More</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -376,7 +373,6 @@
                                             <li>Religious Counselling</li>
                                             <li>Billing Charges</li>
                                         </ul>
-                                        <a href="#"><button class="btn btn-primary container">Read More</button></a>
                                     </div>
                                 </div>
                             </div>
