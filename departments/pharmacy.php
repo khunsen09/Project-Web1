@@ -9,8 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../Images/icon.PNG" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -88,7 +87,7 @@
        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2 class="text-center mt-5">Pharmacy</h2>
-          <p class="title-paragraph text-center mb-2" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">The pharmacy is powered by a pneumatic system for automated delivery of medicines to corresponding stations.</p>
+          <p class="title-paragraph text-center mb-2" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Convenient access to prescribed medications, expert advice, and patient care to support your health journey.</p>
         </div><!-- End Section Title -->
     </div>
 

@@ -9,8 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../Images/icon.PNG" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -89,7 +88,7 @@
     <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
   <h2 class="text-center mt-5">Operating Room Complex</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our Operating Room Complex is equipped with advanced technology and staffed by skilled professionals, ensuring safe, efficient, and high-quality surgical care.</p>
+  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Equipped with advanced technology for safe, precise, and efficient surgical procedures.</p>
 </div><!-- End Section Title -->
 
  

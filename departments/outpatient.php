@@ -9,8 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../Images/icon.PNG" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -89,7 +88,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2 class="text-center mt-5">Out -Patient Care Complex</h2>
-      <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">8:00AM to 7:00PM Mon to Sat | 3rd Floor | 327-1527 loc. 8300</p>
+      <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Comprehensive care with personalized treatment and consultations for non-emergency needs.</p>
     </div><!-- End Section Title -->
     
 
@@ -101,7 +100,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="ms-md-2 ms-lg-5 mt-5 mt-md-0">
-					<h4 class="fw-bold">Learn more about the services we offer. We invite you to visit us."</h4>
+					<h4 class="fw-bold">Learn more about the services we offer</h4>
 					<p class="lead">We offer a wide range of healthcare services designed to meet your needs and provide the best possible care. Whether you're seeking routine medical attention, specialized treatments, or emergency care, our team is here to support you every step of the way.</p>
 					<p class="lead">We invite you to visit us and learn more about the comprehensive services we provide, all aimed at improving your health and well-being. Our dedicated staff is ready to assist you and ensure you receive the highest standard of care.</p><a class="btn btn-primary" href="../doctor.php">Learn more</a>
 				</div>
