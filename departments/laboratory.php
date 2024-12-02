@@ -9,8 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../Images/icon.PNG" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -76,7 +75,7 @@
 <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
   <h2 class="text-center mt-5">Laboratory</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Open 24/7 | 3rd Floor | 327-1527 loc. 8308</p>
+  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">State-of-the-art diagnostic testing for accurate results and timely medical decisions.</p>
 </div><!-- End Section Title -->
 
  

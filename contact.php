@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./Images/icon.PNG" rel="icon">
+ 
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -121,41 +121,61 @@
         </div>
       </div>
 
-      <div class="col-lg-7">
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-4">
+ <div class="col-lg-7">
+  <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+    <div class="row gy-4">
 
-            <div class="col-md-6">
-              <label for="name-field" class="pb-2">Your Name</label>
-              <input type="text" name="name" id="name-field" class="form-control" required="">
-            </div>
+     
+      <input type="hidden" name="access_key" value="c8b22427-8277-46cb-a3d1-e02bafd09b25">
 
-            <div class="col-md-6">
-              <label for="email-field" class="pb-2">Your Email</label>
-              <input type="email" class="form-control" name="email" id="email-field" required="">
-            </div>
+      
+      <div class="col-md-6">
+        <label for="name-field" class="pb-2">Your Name</label>
+        <input type="text" name="name" id="name-field" class="form-control" required>
+      </div>
 
-            <div class="col-md-12">
-              <label for="subject-field" class="pb-2">Subject</label>
-              <input type="text" class="form-control" name="subject" id="subject-field" required="">
-            </div>
+      
+      <div class="col-md-6">
+        <label for="email-field" class="pb-2">Your Email</label>
+        <input type="email" class="form-control" name="email" id="email-field" required>
+      </div>
 
-            <div class="col-md-12">
-              <label for="message-field" class="pb-2">Message</label>
-              <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-            </div>
+      
+      <div class="col-md-12">
+        <label for="subject-field" class="pb-2">Subject</label>
+        <input type="text" class="form-control" name="subject" id="subject-field" required>
+      </div>
 
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+     
+      <div class="col-md-12">
+        <label for="message-field" class="pb-2">Message</label>
+        <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+      </div>
 
-              <button type="submit">Send Message</button>
-            </div>
+      
+      <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
-          </div>
-        </form>
-      </div><!-- End Contact Form -->
+      
+      <button type="submit">Send Message</button>
+
+    </div>
+  </form>
+</div>
+
+
+
+      <!-- <form action="https://api.web3forms.com/submit" method="POST">
+
+<input type="hidden" name="access_key" value="c8b22427-8277-46cb-a3d1-e02bafd09b25">
+
+<input type="text" name="name" required>
+<input type="email" name="email" required>
+<textarea name="message" required></textarea>
+<input type="hidden" name="redirect" value="https://web3forms.com/success">
+<button type="submit">Submit Form</button>
+
+</form> -->
+
 
     </div>
 

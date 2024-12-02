@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./Images/icon.PNG" rel="icon">
+ 
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -214,6 +214,7 @@
     </div>
 
   </section><!-- /Gallery Section -->
+  
   <div class="container py-4">
     <div class="row lead">
       <div class="col-md-12">
@@ -538,8 +539,8 @@
           <!-- More testimonial text here -->
         </div>
         <!-- Card Footer -->
-        <div class="card-footer bg-primary text-center border-top-0">
-          <div class="mt-n8"><img src="Images/icon.PNG" alt="avatar" class="rounded-circle border-primary avatar-xl border border-4"></div>
+        <div class="card-footer text-center border-top-0" style="background-color: rgb(27, 64, 128);">
+          <!-- <div class="mt-n8"><img src="Images/icon.PNG" alt="avatar" class="rounded-circle border-primary avatar-xl border border-4"></div> -->
           <div class="mt-2 text-white">
             <h3 class="text-white mb-0">Valencia, Danilo V., MD - Internal Medicine, Gastroenterology</h3>
             <p class="text-white-50 mb-1">Chairman, Metro Iloilo Hospital & Medical Center</p>
@@ -561,8 +562,8 @@
           <!-- More testimonial text here -->
         </div>
         <!-- Card Footer -->
-        <div class="card-footer bg-primary text-center border-top-0">
-          <div class="mt-n8"><img src="Images/icon.PNG" alt="avatar" class="rounded-circle border-info avatar-xl border"></div>
+        <div class="card-footer text-center border-top-0" style="background-color: rgb(27, 64, 128);">
+          <!-- <div class="mt-n8"><img src="Images/icon.PNG" alt="avatar" class="rounded-circle border-info avatar-xl border"></div> -->
           <div class="mt-2 text-white">
             <h3 class="text-white mb-0">Encarnacion, Danilo A., MD - Internal Medicine, Gastroenterology</h3>
             <p class="text-white-50 mb-1">President, Metro Iloilo Hospital & Medical Center</p>

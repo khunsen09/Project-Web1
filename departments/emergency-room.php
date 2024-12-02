@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../Images/icon.PNG" rel="icon">
+ 
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -86,7 +86,7 @@
 <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
   <h2 class="text-center mt-5">Emergency Room</h2>
-  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our 24/7 Emergency Room provides fast, compassionate care for all urgent medical needs, from minor injuries to critical emergencies.</p>
+  <p class="title-paragraph text-center mt-4" style="font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">24/7 urgent care with prompt, expert medical attention for critical needs.</p>
 </div>
 
 
